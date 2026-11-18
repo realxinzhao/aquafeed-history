@@ -1,0 +1,2 @@
+# Documentation build only; the aquafeed calculation continues to use base R.
+zensical==0.1.2
