@@ -5,6 +5,44 @@ for added groups are explicitly analyst choices. Trials, mash-feed system FCRs a
 production-weighted coefficients are not interchangeable. Older unresolved-mapping statements
 below describe the earlier releases and are superseded by the optional v0.7 coverage extension.
 
+## IFFO and Glencross 2024 review
+
+Reviewed 18 November 2026. The previous register omitted IFFO; no documented exclusion
+decision was found. It is now recorded as review evidence, alongside the linked
+[Glencross et al. (2024) paper](https://doi.org/10.1080/23308249.2024.2337426)
+([institutional full text](https://dspace.stir.ac.uk/handle/1893/36800)). These two
+records belong to the same evidence family and are not independent confirmations.
+
+The [IFFO eFCR page](https://www.iffo.com/efcr-data) reports 2000, 2010 and 2020 values
+for eight parent groups, two nested subsets and a total. It describes industry FCRs
+and expert-informed regional fed-volume estimates, but supplies no separate
+`commercial_feed_share` table. Its prose gives aggregate endpoints 0.81/0.732 while
+its table gives 0.75/0.71. Retain this discrepancy in any future transcription.
+
+Glencross Table 2 (printed p.549; PDF p.6) matches the webpage table. Table 3 (p.550;
+PDF p.7) adds fishmeal/oil inclusion and aggregate origin shares; Table 1 (p.548)
+provides reduction yields. The relevant table pages were visually inspected. These
+are useful candidate evidence, but not a full crop/terrestrial-animal recipe.
+
+For this project's annual history, Tacon remains more directly usable because its
+selected tables distinguish conditional eFCR from commercial-feed share. Do not
+insert IFFO sector eFCRs into the conditional `efcr` field and multiply by our share
+without first establishing the denominator: the public sources do not resolve that
+decomposition sufficiently. Comparing against effective `commercial_feed_per_t_output`
+is a hypothesis to investigate, not an established equivalence.
+
+Use [IFFO's species definitions](https://www.iffo.com/species-categories-explained)
+before comparing groups: its cyprinids include silver/bighead and Indian major carps;
+marine finfish include milkfish; eels include Asian swamp eel. Shrimp and Atlantic
+salmon are subsets of broader rows and must not be counted twice. A future comparison
+needs a species crosswalk and production weights. Shared FAO inputs and unspecified
+industry-source overlap also prevent assuming statistical independence.
+
+This addition changes bibliography and review guidance only. No IFFO numerical rows
+are ingested into stage 1 or selected as default coefficients. Only the register's
+checksum in the default-input manifest is refreshed, preserving the existing numeric
+regression checks and fixtures.
+
 # Source audit carried forward from v0.6
 
 ## v0.6.1 update
