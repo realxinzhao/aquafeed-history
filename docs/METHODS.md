@@ -45,6 +45,13 @@ override in the final species-year export. MacLeod/FAO 626, Shen and Cottrell ar
 review evidence rather than additional independent annual observations. See
 [SOURCE_AUDIT.md](SOURCE_AUDIT.md) for transcription-access and correction-audit limits.
 
+[IFFO's eFCR data](https://www.iffo.com/efcr-data) and the linked
+[Glencross et al. (2024) review](https://doi.org/10.1080/23308249.2024.2337426)
+are registered as complementary review evidence. They are candidates for feed-intensity
+comparisons and marine-ingredient revisions after checking feed boundaries and species
+aggregation. Their values are not selected in the current calculation. See the
+[IFFO review note](SOURCE_AUDIT.md#iffo-and-glencross-2024-review) for the selection rationale.
+
 ## Coefficient construction
 
 For species/group `s`, year `t`, and ingredient `i`, define:

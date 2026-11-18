@@ -69,6 +69,10 @@ For early periods, explicitly test the modern recipe allocations already flagged
 in the source register. Maintain ingredient-as-reported mass until a separately
 documented moisture or processing conversion is applied.
 
+Include the [IFFO/Glencross review](SOURCE_AUDIT.md#iffo-and-glencross-2024-review)
+when evaluating alternative marine-ingredient anchors. Resolve category definitions,
+feed denominators and origin-allocation assumptions before selecting new coefficients.
+
 **Useful result:** bounded historical and recipe scenarios with clear provenance,
 rather than unsupported precision in early years.
 
