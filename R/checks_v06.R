@@ -157,6 +157,8 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
       check("Country historical demand vs independent audit",compare(d$country,"expected_country_demand.csv",c("FAO_area_code","year"),compare_fields,1e-3,selected_ref))
     }
   }
+  sys.source(file.path(root,"tests/test_gcamdata_exports.R"),envir=environment())
+  af_test_gcamdata_exports(check,rejects,co,config)
   result<-af_bind(checks)
   af_write_csv(result,file.path(root,"validation/R_test_results.csv"))
   if(any(!result$passed)) stop(sprintf("%s R checks failed; see %s",sum(!result$passed),file.path(root,"validation/R_test_results.csv")),call.=FALSE)

@@ -258,5 +258,8 @@ af_stage2_coefficients <- function(root = ".", config) {
   af_write_csv(result,file.path(output,"aquaculture_feed_coefficients_species_year.csv"))
   af_write_csv(g,file.path(output,"coefficient_provenance_group_year.csv"))
   af_write_csv(cross,file.path(output,"species_mapping_applied.csv"))
-  list(species=result,groups=g,mapping=cross)
+  formats <- if(is.null(config$gcamdata_formats)) c("csv", "csv.gz") else config$gcamdata_formats
+  exported <- af_export_gcamdata_coefficients(result,
+    file.path(root,config$output_dir,"gcamdata"), formats=formats)
+  list(species=result,groups=g,mapping=cross,gcamdata_files=exported)
 }
