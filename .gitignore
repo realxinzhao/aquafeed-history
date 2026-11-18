@@ -1,0 +1,30 @@
+# Local R/session state and credentials
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.env
+*.pem
+*.key
+*.token
+config/local.R
+# Regenerated results, never required to build the analysis
+/data/processed/*
+!/data/processed/.gitkeep
+/outputs/*
+!/outputs/.gitkeep
+/validation/R_test_results.csv
+/validation/last_run_status.txt
+# Full papers and temporary/downloaded artifacts are not redistributed
+*.pdf
+*.zip
+*.deb
+*.tar.gz
+# Optional renv library is machine-specific; lock and activation code can be committed
+renv/library/
+renv/staging/
+renv/cache/
+# Platform files
+.DS_Store
+Thumbs.db

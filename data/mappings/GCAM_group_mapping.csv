@@ -1,0 +1,40 @@
+﻿ISSCAAP,GCAM_subsector,GCAM_commodity
+"Abalones, winkles, conchs",MolluscsOthers,ShellfishOthers
+Brown seaweeds,AquaticPlants,AquaticPlants
+"Carps, barbels and other cyprinids",FreshwaterFish,FreshwaterDiadromous
+"Clams, cockles, arkshells",MolluscsOthers,ShellfishOthers
+"Cods, hakes, haddocks",MarineFish,MarineFish
+"Crabs, sea-spiders",Crustaceans,ShellfishOthers
+"Flounders, halibuts, soles",MarineFish,MarineFish
+Freshwater crustaceans,Crustaceans,ShellfishOthers
+Freshwater molluscs,MolluscsOthers,ShellfishOthers
+Frogs and other amphibians,MolluscsOthers,ShellfishOthers
+Green seaweeds,AquaticPlants,AquaticPlants
+"Herrings, sardines, anchovies",MarineFish,MarineFish
+"King crabs, squat-lobsters",Crustaceans,ShellfishOthers
+"Lobsters, spiny-rock lobsters",Crustaceans,ShellfishOthers
+Marine fishes not identified,MarineFish,MarineFish
+Miscellaneous aquatic invertebrates,MolluscsOthers,ShellfishOthers
+Miscellaneous aquatic plants,AquaticPlants,AquaticPlants
+Miscellaneous coastal fishes,MarineFish,MarineFish
+Miscellaneous demersal fishes,MarineFish,MarineFish
+Miscellaneous diadromous fishes,DiadromousFish,FreshwaterDiadromous
+Miscellaneous freshwater fishes,FreshwaterFish,FreshwaterDiadromous
+Miscellaneous marine crustaceans,Crustaceans,ShellfishOthers
+Miscellaneous marine molluscs,MolluscsOthers,ShellfishOthers
+Miscellaneous pelagic fishes,MarineFish,MarineFish
+Mussels,MolluscsOthers,ShellfishOthers
+Oysters,MolluscsOthers,ShellfishOthers
+Red seaweeds,AquaticPlants,AquaticPlants
+River eels,DiadromousFish,FreshwaterDiadromous
+"Salmons, trouts, smelts",DiadromousFish,FreshwaterDiadromous
+"Scallops, pectens",MolluscsOthers,ShellfishOthers
+Sea-squirts and other tunicates,MolluscsOthers,ShellfishOthers
+Sea-urchins and other echinoderms,MolluscsOthers,ShellfishOthers
+Shads,DiadromousFish,FreshwaterDiadromous
+"Shrimps, prawns",Crustaceans,ShellfishOthers
+"Squids, cuttlefishes, octopuses",MolluscsOthers,ShellfishOthers
+"Sturgeons, paddlefishes",DiadromousFish,FreshwaterDiadromous
+Tilapias and other cichlids,FreshwaterFish,FreshwaterDiadromous
+"Tunas, bonitos, billfishes",MarineFish,MarineFish
+Turtles,MolluscsOthers,ShellfishOthers

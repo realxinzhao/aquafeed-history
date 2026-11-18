@@ -1,0 +1,25 @@
+﻿source,group,year,printed_feed_t,recomputed_feed_t,difference_t,flag,source_url
+Tacon2015,Tilapia,2002,1953000.0,1963962.0,-10962.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2003,2215000.0,2228148.0,-13148.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2004,2530000.0,2552490.0,-22490.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2005,2852000.0,2868480.0,-16480.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2006,3056000.0,3076218.0,-20218.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2007,3493000.0,3560276.0,-67276.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Tilapia,2008,3948000.0,3987486.0,-39486.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2000,772000.0,685584.0,86416.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2001,794000.0,734526.0,59474.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2002,873000.0,827747.0,45253.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2003,1318000.0,1300772.0,17228.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2004,1523000.0,1502496.0,20504.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2005,1752000.0,1800000.0,-48000.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2006,1908000.0,2016000.0,-108000.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2007,2446000.0,2582100.0,-136100.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2008,3041000.0,3210240.0,-169240.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2009,3108000.0,3277890.0,-169890.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Catfishes,2010,3509000.0,3701775.0,-192775.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2015,Marine shrimp,2003,3006000.0,3078551.0,-72551.0,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2014.987209
+Tacon2026,Chinese fed carps,2014,12500000.0,12237480.000000002,262519.99999999854,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2025.2568830
+Tacon2026,Marine shrimp,2011,5060000.0,5601669.999999999,-541669.9999999999,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2025.2568830
+Tacon2026,Catfishes,2014,5400000.0,5408340.0,-8339.99999999957,"Printed year 1014; normalized to 2014, original retained.",https://doi.org/10.1080/23308249.2025.2568830
+Tacon2026,Marine fishes,2011,2730000.0,2700000.0,29999.999999999804,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2025.2568830
+Tacon2026,River eels,2025,590000.0,524999.9999999999,65000.00000000006,Nontrivial printed/recomputed difference; no silent correction.,https://doi.org/10.1080/23308249.2025.2568830

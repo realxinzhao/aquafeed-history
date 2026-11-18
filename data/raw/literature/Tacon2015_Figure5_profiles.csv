@@ -1,0 +1,4 @@
+source_id,profile,aquatic_pct,animal_pct,plant_protein_oil_pct,other_plant_pct,additives_pct,source_url,source_location,transcription_note
+Tacon2015,herbivorous_omnivorous,4,14,29,49,4,https://doi.org/10.1080/23308249.2014.987209,"Figure 5, article p.9 / PDF p.10",Verified against user-supplied figure crop; shrimp labels total 90%; remaining 10% stays unallocated.
+Tacon2015,marine_carnivorous,30,20,30,15,5,https://doi.org/10.1080/23308249.2014.987209,"Figure 5, article p.9 / PDF p.10",Verified against user-supplied figure crop; shrimp labels total 90%; remaining 10% stays unallocated.
+Tacon2015,penaeid_shrimp,19,9,29,29,4,https://doi.org/10.1080/23308249.2014.987209,"Figure 5, article p.9 / PDF p.10",Verified against user-supplied figure crop; shrimp labels total 90%; remaining 10% stays unallocated.

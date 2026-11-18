@@ -1,0 +1,1742 @@
+﻿FAO_area_code,water_area_code,ISSCAAP,year,supply,measure,original_production_t,species_production_t,difference_t,status
+1,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,900.0,900.0,0.0,shared_exact
+1,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+1,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+1,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11930.0,11930.0,0.0,shared_exact
+1,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,5900.0,5900.0,0.0,shared_exact
+10,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,34.5,34.5,0.0,shared_exact
+10,06,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+10,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,641.0,641.0,0.0,shared_exact
+10,06,River eels,2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+10,06,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,296.0,296.0,0.0,shared_exact
+10,57,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,750.238,750.238,0.0,shared_exact
+10,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+10,57,Marine fishes not identified,2021,Aquaculture,Q_tlw,5501.595,5501.595,0.0,shared_exact
+10,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,614.687,614.687,0.0,shared_exact
+10,57,Mussels,2021,Aquaculture,Q_tlw,2325.544,2325.544,0.0,shared_exact
+10,57,Oysters,2021,Aquaculture,Q_tlw,7869.21,7869.21,0.0,shared_exact
+10,57,River eels,2021,Aquaculture,Q_tlw,105.0,0.0,-105.0,original_only_positive
+10,57,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,84045.234,84045.234,0.0,shared_exact
+10,57,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,7600.0,7600.0,0.0,shared_exact
+10,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,132.0,0.0,-132.0,original_only_positive
+10,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,7143.051,7143.051,0.0,shared_exact
+10,71,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+10,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,8002.7,8002.7,0.0,shared_exact
+10,81,Marine fishes not identified,2021,Aquaculture,Q_tlw,85.0,0.0,-85.0,original_only_positive
+10,81,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,3644.581,0.0,-3644.581,original_only_positive
+10,81,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,57.0,57.0,0.0,shared_exact
+10,81,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,4.5,0.0,-4.5,original_only_positive
+10,81,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+10,81,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+10,81,Oysters,2021,Aquaculture,Q_tlw,3306.0,3306.0,0.0,shared_exact
+10,81,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+10,81,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+10,81,"Shrimps, prawns",2021,Aquaculture,Q_tlw,724.0,724.0,0.0,shared_exact
+100,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,5970100.0,5970100.0,0.0,shared_exact
+100,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,18086.0,18086.0,0.0,shared_exact
+100,04,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+100,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,2222206.0,2222206.0,0.0,shared_exact
+100,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1000.0,1000.0,0.0,shared_exact
+100,04,Shads,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+100,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,200.0,0.0,-200.0,original_only_positive
+100,51,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,630.0,0.0,-630.0,original_only_positive
+100,51,Mussels,2021,Aquaculture,Q_tlw,9500.0,9500.0,0.0,shared_exact
+100,51,Oysters,2021,Aquaculture,Q_tlw,4200.0,4200.0,0.0,shared_exact
+100,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100714.0,0.0,-100714.0,original_only_positive
+100,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,8400.0,8400.0,0.0,shared_exact
+100,57,Marine fishes not identified,2021,Aquaculture,Q_tlw,127200.0,127200.0,0.0,shared_exact
+100,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5700.0,5700.0,0.0,shared_exact
+100,57,Red seaweeds,2021,Aquaculture,Q_tlw,5300.0,5300.0,0.0,shared_exact
+100,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1036408.0,1036408.0,0.0,shared_exact
+101,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,687649.094,687649.0939999998,-2.3283064365386963e-10,shared_exact
+101,04,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,3.774,3.774,0.0,shared_exact
+101,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1010.246,1010.246,0.0,shared_exact
+101,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,1.29,1.29,0.0,shared_exact
+101,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,8.366,8.366,0.0,shared_exact
+101,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,67294.742,67294.742,0.0,shared_exact
+101,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1646364.007,1646364.0070000002,2.3283064365386963e-10,shared_exact
+101,04,River eels,2021,Aquaculture,Q_tlw,233.355,233.355,0.0,shared_exact
+101,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1608.38,1608.38,0.0,shared_exact
+101,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1240315.933,1240315.933,0.0,shared_exact
+101,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+101,71,Brown seaweeds,2021,Aquaculture,Q_tlw,85317.115,85317.115,0.0,shared_exact
+101,71,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1924.386,1924.386,0.0,shared_exact
+101,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,11355.391,11355.391,0.0,shared_exact
+101,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,13838.771,13838.771,0.0,shared_exact
+101,71,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3275.541,3275.541,0.0,shared_exact
+101,71,Freshwater molluscs,2021,Aquaculture,Q_tlw,189.324,189.324,0.0,shared_exact
+101,71,Green seaweeds,2021,Aquaculture,Q_tlw,218.59,218.59,0.0,shared_exact
+101,71,"Herrings, sardines, anchovies",2021,Aquaculture,Q_tlw,26.5,26.5,0.0,shared_exact
+101,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,636.692,636.692,0.0,shared_exact
+101,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,280.0,280.0,0.0,shared_exact
+101,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,23442.353,23442.352999999996,-3.637978807091713e-12,shared_exact
+101,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,721686.057,721686.0569999999,-1.1641532182693481e-10,shared_exact
+101,71,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,5669.928,5669.928,0.0,shared_exact
+101,71,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+101,71,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,8070.0,0.0,-8070.0,original_only_positive
+101,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,12875.312,12875.312000000002,1.8189894035458565e-12,shared_exact
+101,71,Mussels,2021,Aquaculture,Q_tlw,23362.268,23362.268,0.0,shared_exact
+101,71,Oysters,2021,Aquaculture,Q_tlw,8207.416,8207.416,0.0,shared_exact
+101,71,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,18.6,18.6,species_only_positive
+101,71,Red seaweeds,2021,Aquaculture,Q_tlw,8871755.775,8871755.775,0.0,shared_exact
+101,71,River eels,2021,Aquaculture,Q_tlw,47.49,47.49,0.0,shared_exact
+101,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,231.581,231.581,0.0,shared_exact
+101,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,948911.34,948911.34,0.0,shared_exact
+101,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,115732.935,115732.935,0.0,shared_exact
+102,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,216952.0,216952.0,0.0,shared_exact
+102,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,24.0,24.0,0.0,shared_exact
+102,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,563.0,563.0,0.0,shared_exact
+102,04,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+102,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,193852.0,193852.0,0.0,shared_exact
+102,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,3145.0,3145.0,0.0,shared_exact
+102,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,736.0,736.0,0.0,shared_exact
+102,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+102,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,5616.0,5616.0,0.0,shared_exact
+102,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,57799.0,57799.0,0.0,shared_exact
+103,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,22694.0,22694.0,0.0,shared_exact
+103,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,400.0,0.0,-400.0,original_only_positive
+104,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+104,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+104,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,537.0,537.0,0.0,shared_exact
+104,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1.7,0.0,-1.7,original_only_positive
+104,27,Brown seaweeds,2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+104,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,4.0,0.0,-4.0,original_only_positive
+104,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+104,27,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+104,27,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,214.0,214.0,0.0,shared_exact
+104,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,76.0,0.0,-76.0,original_only_positive
+104,27,Mussels,2021,Aquaculture,Q_tlw,17440.0,17440.0,0.0,shared_exact
+104,27,Oysters,2021,Aquaculture,Q_tlw,11064.0,11064.0,0.0,shared_exact
+104,27,Red seaweeds,2021,Aquaculture,Q_tlw,8.5,0.0,-8.5,original_only_positive
+104,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,12844.0,12844.0,0.0,shared_exact
+104,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,33.0,0.0,-33.0,original_only_positive
+104,27,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,0.5,0.0,-0.5,original_only_positive
+105,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2410.0,2410.0,0.0,shared_exact
+105,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+105,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2000.0,2000.0,0.0,shared_exact
+105,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,510.0,510.0,0.0,shared_exact
+105,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,400.0,400.0,0.0,shared_exact
+105,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+105,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5300.0,5300.0,0.0,shared_exact
+105,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+105,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3095.0,3095.0,0.0,shared_exact
+105,37,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1000.0,1000.0,0.0,shared_exact
+105,37,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+105,37,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+105,37,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+106,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,248.9,248.89999999999998,-2.842170943040401e-14,shared_exact
+106,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+106,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+106,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,321.7,321.70000000000005,5.684341886080802e-14,shared_exact
+106,05,River eels,2021,Aquaculture,Q_tlw,407.3,407.3,0.0,shared_exact
+106,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,42054.9,42054.9,0.0,shared_exact
+106,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1252.6,1252.6,0.0,shared_exact
+106,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+106,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,23082.4,23082.4,0.0,shared_exact
+106,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,38.4,38.4,0.0,shared_exact
+106,37,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+106,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1662.0,0.0,-1662.0,original_only_positive
+106,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,16124.3,16124.3,0.0,shared_exact
+106,37,Mussels,2021,Aquaculture,Q_tlw,61921.4,61921.4,0.0,shared_exact
+106,37,Oysters,2021,Aquaculture,Q_tlw,350.4,350.4,0.0,shared_exact
+106,37,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+106,37,River eels,2021,Aquaculture,Q_tlw,35.8,35.8,0.0,shared_exact
+106,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,23.8,23.8,0.0,shared_exact
+106,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,435.3,0.0,-435.3,original_only_positive
+107,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,650.0,650.0,0.0,shared_exact
+107,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5070.0,5070.0,0.0,shared_exact
+108,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,3992.796,3992.7960000000003,4.547473508864641e-13,shared_exact
+108,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,407.247,407.24699999999996,-5.684341886080802e-14,shared_exact
+108,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,946.746,946.746,0.0,shared_exact
+108,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,91.62,91.62,0.0,shared_exact
+109,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+109,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+109,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+109,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,869.2,869.2,0.0,shared_exact
+109,31,Oysters,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+109,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+11,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,671.432,671.4319999999999,-1.1368683772161603e-13,shared_exact
+11,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.466,0.466,0.0,shared_exact
+11,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,582.441,582.441,0.0,shared_exact
+11,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,3607.767,3607.767,0.0,shared_exact
+11,05,"Shrimps, prawns",2021,Aquaculture,Q_tlw,44.925,44.925,0.0,shared_exact
+11,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,13.382,13.382,0.0,shared_exact
+110,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2064.0,2064.0,0.0,shared_exact
+110,04,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Green seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,71.0,71.0,0.0,shared_exact
+110,04,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,0.015,0.015,species_only_positive
+110,04,River eels,2021,Aquaculture,Q_tlw,20673.0,20673.0,0.0,shared_exact
+110,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,10047.0,10047.0,0.0,shared_exact
+110,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,04,Turtles,2021,Aquaculture,Q_tlw,150.0,150.0,0.0,shared_exact
+110,61,Brown seaweeds,2021,Aquaculture,Q_tlw,75663.0,75663.0,0.0,shared_exact
+110,61,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,445.0,445.0,0.0,shared_exact
+110,61,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,61,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,1711.0,1711.0,0.0,shared_exact
+110,61,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,4143.0,4143.0,0.0,shared_exact
+110,61,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,166.0,166.0,0.0,shared_exact
+110,61,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,22926.0,22926.0,0.0,shared_exact
+110,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,72274.0,72274.0,0.0,shared_exact
+110,61,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,61,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,138113.0,138113.0,0.0,shared_exact
+110,61,Oysters,2021,Aquaculture,Q_tlw,158789.0,158789.0,0.0,shared_exact
+110,61,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,13.0,13.0,species_only_positive
+110,61,Red seaweeds,2021,Aquaculture,Q_tlw,237255.0,237255.0,0.0,shared_exact
+110,61,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,18482.0,18482.0,0.0,shared_exact
+110,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,164511.0,164511.0,0.0,shared_exact
+110,61,Sea-squirts and other tunicates,2021,Aquaculture,Q_tlw,9421.0,9421.0,0.0,shared_exact
+110,61,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1253.0,1253.0,0.0,shared_exact
+110,61,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+110,61,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,21476.0,21476.0,0.0,shared_exact
+112,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1080.0,1080.0,0.0,shared_exact
+112,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1065.0,1065.0,0.0,shared_exact
+113,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,5120.0,5120.0,0.0,shared_exact
+113,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+113,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5120.0,5120.0,0.0,shared_exact
+113,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+114,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,540.0,540.0,0.0,shared_exact
+114,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4985.0,4985.0,0.0,shared_exact
+114,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,600.0,600.0,0.0,shared_exact
+114,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,21265.0,21265.0,0.0,shared_exact
+114,51,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+114,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+114,51,Red seaweeds,2021,Aquaculture,Q_tlw,1030.0,1030.0,0.0,shared_exact
+114,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+115,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,106360.0,106360.0,0.0,shared_exact
+115,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,290.0,290.0,0.0,shared_exact
+115,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,220.0,220.0,0.0,shared_exact
+115,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,212140.0,212140.0,0.0,shared_exact
+115,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,12180.0,12180.0,0.0,shared_exact
+115,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,8000.0,8000.0,0.0,shared_exact
+115,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+115,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,260.0,260.0,0.0,shared_exact
+115,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,960.0,960.0,0.0,shared_exact
+115,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,870.0,870.0,0.0,shared_exact
+115,71,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,1290.0,0.0,-1290.0,original_only_positive
+115,71,Mussels,2021,Aquaculture,Q_tlw,5480.0,5480.0,0.0,shared_exact
+115,71,Red seaweeds,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+115,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1390.0,1390.0,0.0,shared_exact
+116,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,4200.0,4200.0,0.0,shared_exact
+116,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+116,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,10500.0,10500.0,0.0,shared_exact
+116,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+116,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+116,04,Turtles,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+116,61,Brown seaweeds,2021,Aquaculture,Q_tlw,600000.0,600000.0,0.0,shared_exact
+116,61,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,62000.0,62000.0,0.0,shared_exact
+116,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,120.0,120.0,0.0,shared_exact
+116,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+116,61,Red seaweeds,2021,Aquaculture,Q_tlw,3000.0,3000.0,0.0,shared_exact
+116,61,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+116,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,400.0,400.0,0.0,shared_exact
+116,61,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+117,04,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,5379.0,0.0,-5379.0,original_only_positive
+117,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2963.062,2963.062,0.0,shared_exact
+117,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,23.798,23.798,0.0,shared_exact
+117,04,Freshwater molluscs,2021,Aquaculture,Q_tlw,8080.126,8080.126,0.0,shared_exact
+117,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,2120.0,0.0,-2120.0,original_only_positive
+117,04,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,2262.13,2262.13,0.0,shared_exact
+117,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,237.69,237.69,0.0,shared_exact
+117,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4480.783,4480.783,0.0,shared_exact
+117,04,River eels,2021,Aquaculture,Q_tlw,15686.0,15686.0,0.0,shared_exact
+117,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2673.59,2673.59,0.0,shared_exact
+117,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,183.972,183.972,0.0,shared_exact
+117,04,Turtles,2021,Aquaculture,Q_tlw,44.373,44.373,0.0,shared_exact
+117,61,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,23199.485,23199.485,0.0,shared_exact
+117,61,Brown seaweeds,2021,Aquaculture,Q_tlw,1276581.985,1276581.9849999999,-2.3283064365386963e-10,shared_exact
+117,61,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,29879.309,29879.309,0.0,shared_exact
+117,61,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,47990.18,47990.18,0.0,shared_exact
+117,61,Green seaweeds,2021,Aquaculture,Q_tlw,22196.262,22196.262,0.0,shared_exact
+117,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,108.32,108.32,0.0,shared_exact
+117,61,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.195,0.195,0.0,shared_exact
+117,61,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,2262.13,2262.13,0.0,shared_exact
+117,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,22714.552,22714.552,0.0,shared_exact
+117,61,Miscellaneous demersal fishes,2021,Aquaculture,Q_tlw,17698.978,17698.978,0.0,shared_exact
+117,61,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+117,61,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,2147.345,2147.345,0.0,shared_exact
+117,61,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,675.028,675.028,0.0,shared_exact
+117,61,Mussels,2021,Aquaculture,Q_tlw,63672.256,63672.256,0.0,shared_exact
+117,61,Oysters,2021,Aquaculture,Q_tlw,305914.405,305914.405,0.0,shared_exact
+117,61,Red seaweeds,2021,Aquaculture,Q_tlw,548344.796,548344.796,0.0,shared_exact
+117,61,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,90.912,90.912,0.0,shared_exact
+117,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,5106.835,5106.835,0.0,shared_exact
+117,61,Sea-squirts and other tunicates,2021,Aquaculture,Q_tlw,22829.352,22829.352,0.0,shared_exact
+117,61,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,16.221,16.221,0.0,shared_exact
+117,61,Shads,2021,Aquaculture,Q_tlw,145.3,145.3,0.0,shared_exact
+117,61,"Shrimps, prawns",2021,Aquaculture,Q_tlw,9545.43,9545.43,0.0,shared_exact
+118,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+118,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+118,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,450.0,450.0,0.0,shared_exact
+118,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+118,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+118,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+119,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,573.7,573.7,0.0,shared_exact
+119,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.058,0.0,-0.058,original_only_positive
+119,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,88.18,88.17999999999998,-2.842170943040401e-14,shared_exact
+119,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,183.16,183.16,0.0,shared_exact
+119,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,55.43,55.43,0.0,shared_exact
+119,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.93,0.93,0.0,shared_exact
+12,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+12,31,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+12,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+12,31,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+12,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+12,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+120,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,82850.0,82850.0,0.0,shared_exact
+120,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,110.0,110.0,0.0,shared_exact
+120,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,12328.0,12328.0,0.0,shared_exact
+120,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,39700.0,39700.0,0.0,shared_exact
+120,04,Turtles,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+121,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+121,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+121,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,900.0,900.0,0.0,shared_exact
+121,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+121,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+121,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,8.0,8.0,0.0,shared_exact
+122,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1.3,1.3,0.0,shared_exact
+122,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+122,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1500.0,1500.0,0.0,shared_exact
+123,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,295.0,295.0,0.0,shared_exact
+123,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,855.0,855.0,0.0,shared_exact
+124,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,80.0,0.0,-80.0,original_only_positive
+124,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+124,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+124,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+126,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,3823.49,3823.49,0.0,shared_exact
+126,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1026.77,1026.7700000000002,2.2737367544323206e-13,shared_exact
+126,05,River eels,2021,Aquaculture,Q_tlw,0.21,0.0,-0.21,original_only_positive
+126,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,130.55,130.55,0.0,shared_exact
+126,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,154.53,154.53,0.0,shared_exact
+127,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.12,0.12,0.0,shared_exact
+127,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+127,71,Red seaweeds,2021,Aquaculture,Q_tlw,0.08,0.0,-0.08,original_only_positive
+129,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,27.12,27.12,0.0,shared_exact
+129,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+129,01,River eels,2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+129,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,89.0,0.0,-89.0,original_only_positive
+129,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1298.58,1298.58,0.0,shared_exact
+129,51,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+129,51,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+129,51,Red seaweeds,2021,Aquaculture,Q_tlw,11658.0,11658.0,0.0,shared_exact
+129,51,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,23.95,23.95,0.0,shared_exact
+129,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,3378.21,3378.21,0.0,shared_exact
+13,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,35.0,35.0,0.0,shared_exact
+13,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,16.0,16.0,0.0,shared_exact
+13,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+130,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,31.0,31.0,0.0,shared_exact
+130,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+130,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,631.0,631.0,0.0,shared_exact
+130,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,35.0,35.0,0.0,shared_exact
+130,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,9251.0,9251.0,0.0,shared_exact
+131,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,11583.45,11583.45,0.0,shared_exact
+131,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,287.51,287.51,0.0,shared_exact
+131,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,500.0,500.0,0.0,shared_exact
+131,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.05,0.05,0.0,shared_exact
+131,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,56214.28,56214.27999999999,-7.275957614183426e-12,shared_exact
+131,04,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+131,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,37609.45,37609.450000000004,7.275957614183426e-12,shared_exact
+131,04,Turtles,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+131,57,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,16988.61,16988.61,0.0,shared_exact
+131,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,48.39,48.39,0.0,shared_exact
+131,57,Marine fishes not identified,2021,Aquaculture,Q_tlw,140.13,140.13,0.0,shared_exact
+131,57,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,23.35,23.35,0.0,shared_exact
+131,57,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,13494.51,13494.509999999998,-1.8189894035458565e-12,shared_exact
+131,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,35279.46,35279.46,0.0,shared_exact
+131,57,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,12.5,12.5,0.0,shared_exact
+131,57,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,4708.98,4708.98,0.0,shared_exact
+131,57,Mussels,2021,Aquaculture,Q_tlw,1461.86,1461.86,0.0,shared_exact
+131,57,Oysters,2021,Aquaculture,Q_tlw,6.01,6.01,0.0,shared_exact
+131,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,37239.44,37239.44,0.0,shared_exact
+131,57,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,779.97,779.97,0.0,shared_exact
+131,71,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,24.74,24.74,0.0,shared_exact
+131,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,317.312,0.0,-317.312,original_only_positive
+131,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,157.45,157.45,0.0,shared_exact
+131,71,Freshwater molluscs,2021,Aquaculture,Q_tlw,11.0,11.0,0.0,shared_exact
+131,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,37.44,37.44,0.0,shared_exact
+131,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,31.15,31.15,0.0,shared_exact
+131,71,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,16125.0,0.0,-16125.0,original_only_positive
+131,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,637.53,637.5299999999999,-1.1368683772161603e-13,shared_exact
+131,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1727.15,1727.15,0.0,shared_exact
+131,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,24.13,24.13,0.0,shared_exact
+131,71,Mussels,2021,Aquaculture,Q_tlw,10.65,10.65,0.0,shared_exact
+131,71,Oysters,2021,Aquaculture,Q_tlw,112.87,112.87,0.0,shared_exact
+131,71,Red seaweeds,2021,Aquaculture,Q_tlw,178873.3,178873.3,0.0,shared_exact
+131,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,41.56,41.56,0.0,shared_exact
+131,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,19257.0,19257.0,0.0,shared_exact
+131,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,154.49,154.49,0.0,shared_exact
+133,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3927.0,3927.0,0.0,shared_exact
+133,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,4557.0,4557.0,0.0,shared_exact
+134,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+134,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+134,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2861.474,2861.474,0.0,shared_exact
+134,37,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+134,37,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+134,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,13548.774,13548.774,0.0,shared_exact
+135,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,6.0,6.0,0.0,shared_exact
+135,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+135,31,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+135,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,30.5,30.5,0.0,shared_exact
+135,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+137,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+137,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2.3,2.3,0.0,shared_exact
+137,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,9.7,9.7,0.0,shared_exact
+137,51,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+137,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+137,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2278.776,2278.776,0.0,shared_exact
+137,51,Oysters,2021,Aquaculture,Q_tlw,23.75,23.75,0.0,shared_exact
+137,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+137,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,143.699,143.699,0.0,shared_exact
+138,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,11.534,11.533999999999999,-1.7763568394002505e-15,shared_exact
+138,02,Frogs and other amphibians,2021,Aquaculture,Q_tlw,12.114,12.114,0.0,shared_exact
+138,02,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,1.183,0.0,-1.183,original_only_positive
+138,02,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.36,0.36,0.0,shared_exact
+138,02,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,314.285,314.285,0.0,shared_exact
+138,02,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+138,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,728.07,728.07,0.0,shared_exact
+138,02,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.09,0.09,0.0,shared_exact
+138,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,972.722,972.722,0.0,shared_exact
+138,02,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,45037.05,45037.049999999996,-7.275957614183426e-12,shared_exact
+138,31,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,31,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.48,0.0,-2.48,original_only_positive
+138,31,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,31,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,31,Marine fishes not identified,2021,Aquaculture,Q_tlw,16.761,0.0,-16.761,original_only_positive
+138,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2.995,2.995,0.0,shared_exact
+138,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,31,Mussels,2021,Aquaculture,Q_tlw,96.348,0.0,-96.348,original_only_positive
+138,31,Oysters,2021,Aquaculture,Q_tlw,3536.6,3536.6,0.0,shared_exact
+138,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,95.65,95.65,0.0,shared_exact
+138,31,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,77,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+138,77,Brown seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+138,77,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+138,77,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.04,0.04,0.0,shared_exact
+138,77,Marine fishes not identified,2021,Aquaculture,Q_tlw,12.022,0.0,-12.022,original_only_positive
+138,77,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+138,77,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,27.641,27.641,0.0,shared_exact
+138,77,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+138,77,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+138,77,Mussels,2021,Aquaculture,Q_tlw,131.001,0.0,-131.001,original_only_positive
+138,77,Oysters,2021,Aquaculture,Q_tlw,6991.953,6991.953,0.0,shared_exact
+138,77,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.252,0.0,-0.252,original_only_positive
+138,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,181927.901,181927.90099999998,-2.9103830456733704e-11,shared_exact
+138,77,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+14,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+14,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+143,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,820.0,0.0,-820.0,original_only_positive
+143,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+143,01,River eels,2021,Aquaculture,Q_tlw,348.0,348.0,0.0,shared_exact
+143,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,300.0,300.0,0.0,shared_exact
+143,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,225.0,225.0,0.0,shared_exact
+143,34,Mussels,2021,Aquaculture,Q_tlw,72.063,72.063,0.0,shared_exact
+143,34,Oysters,2021,Aquaculture,Q_tlw,597.93,597.93,0.0,shared_exact
+143,34,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+143,34,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+143,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,135.584,135.584,0.0,shared_exact
+143,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+143,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,243.612,243.612,0.0,shared_exact
+143,37,Mussels,2021,Aquaculture,Q_tlw,11.78,0.0,-11.78,original_only_positive
+143,37,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+143,37,Red seaweeds,2021,Aquaculture,Q_tlw,84.11,84.11,0.0,shared_exact
+143,37,River eels,2021,Aquaculture,Q_tlw,27.0,0.0,-27.0,original_only_positive
+143,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+144,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+144,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+144,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,4123.0,4123.0,0.0,shared_exact
+144,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+144,51,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+144,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+145,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+145,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+145,71,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+145,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+146,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12770.0,12770.0,0.0,shared_exact
+146,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+146,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,80.0,80.0,0.0,shared_exact
+146,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+147,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,6.0,6.0,0.0,shared_exact
+147,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+147,47,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+147,47,Mussels,2021,Aquaculture,Q_tlw,2.72,0.0,-2.72,original_only_positive
+147,47,Oysters,2021,Aquaculture,Q_tlw,285.0,285.0,0.0,shared_exact
+147,47,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+148,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+149,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,78718.0,78718.0,0.0,shared_exact
+149,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3065.0,3065.0,0.0,shared_exact
+149,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,668.0,668.0,0.0,shared_exact
+149,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1840.0,1840.0,0.0,shared_exact
+150,05,Marine fishes not identified,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+150,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,2670.0,2670.0,0.0,shared_exact
+150,05,River eels,2021,Aquaculture,Q_tlw,1950.0,1950.0,0.0,shared_exact
+150,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+150,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,150.0,150.0,0.0,shared_exact
+150,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+150,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,120.0,120.0,0.0,shared_exact
+150,27,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+150,27,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,700.0,700.0,0.0,shared_exact
+150,27,Mussels,2021,Aquaculture,Q_tlw,32850.0,32850.0,0.0,shared_exact
+150,27,Oysters,2021,Aquaculture,Q_tlw,2100.0,2100.0,0.0,shared_exact
+150,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+151,31,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+153,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+153,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,5.522,5.522,0.0,shared_exact
+153,71,Oysters,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+153,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,39.219,0.0,-39.219,original_only_positive
+153,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1431.0,1431.0,0.0,shared_exact
+154,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,299.0,299.0,0.0,shared_exact
+154,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+154,05,River eels,2021,Aquaculture,Q_tlw,0.065,0.0,-0.065,original_only_positive
+154,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1357.51,1357.51,0.0,shared_exact
+155,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+155,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+155,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+155,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+155,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+156,06,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2296.0,2296.0,0.0,shared_exact
+156,81,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,45.0,45.0,0.0,shared_exact
+156,81,Mussels,2021,Aquaculture,Q_tlw,98016.0,98016.0,0.0,shared_exact
+156,81,Oysters,2021,Aquaculture,Q_tlw,1816.0,1816.0,0.0,shared_exact
+156,81,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,14666.0,14666.0,0.0,shared_exact
+157,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+157,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+157,77,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,23.0,23.0,0.0,shared_exact
+157,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,30957.9,30957.9,0.0,shared_exact
+158,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,400.0,400.0,0.0,shared_exact
+158,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,72.0,72.0,0.0,shared_exact
+159,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,22323.0,22323.0,0.0,shared_exact
+159,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+159,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,232577.0,232577.0,0.0,shared_exact
+159,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20654.0,20654.0,0.0,shared_exact
+159,34,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1130.0,0.0,-1130.0,original_only_positive
+159,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,91.0,91.0,0.0,shared_exact
+16,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1385352.0,1385352.0,0.0,shared_exact
+16,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,58680.0,58680.0,0.0,shared_exact
+16,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,606914.0,606914.0,0.0,shared_exact
+16,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,347795.0,347795.0,0.0,shared_exact
+16,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,12337.0,12337.0,0.0,shared_exact
+16,57,Marine fishes not identified,2021,Aquaculture,Q_tlw,146908.0,146908.0,0.0,shared_exact
+16,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,80759.0,80759.0,0.0,shared_exact
+162,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,903.301,903.3009999999999,-1.1368683772161603e-13,shared_exact
+162,27,Brown seaweeds,2021,Aquaculture,Q_tlw,246.464,246.464,0.0,shared_exact
+162,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,1621.86,1621.86,0.0,shared_exact
+162,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,2716.088,2716.088,0.0,shared_exact
+162,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,349.796,349.796,0.0,shared_exact
+162,27,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,9.529,9.529,0.0,shared_exact
+162,27,Mussels,2021,Aquaculture,Q_tlw,2162.5,2162.5,0.0,shared_exact
+162,27,Oysters,2021,Aquaculture,Q_tlw,14.65,14.65,0.0,shared_exact
+162,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1657074.76,1657074.76,0.0,shared_exact
+162,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,13.1,13.1,0.0,shared_exact
+163,06,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+163,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+163,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+165,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,160574.0,160574.0,0.0,shared_exact
+165,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,181.0,181.0,0.0,shared_exact
+165,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3026.0,3026.0,0.0,shared_exact
+165,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,350.0,350.0,0.0,shared_exact
+165,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,254.0,254.0,0.0,shared_exact
+165,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,142.0,142.0,0.0,shared_exact
+166,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+166,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.048,0.0,-0.048,original_only_positive
+166,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,48.0,48.0,0.0,shared_exact
+166,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+166,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,405.04,405.03999999999996,-5.684341886080802e-14,shared_exact
+166,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,991.4,991.4,0.0,shared_exact
+166,77,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+166,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,5195.0,5195.0,0.0,shared_exact
+167,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,18848.0,18848.0,0.0,shared_exact
+167,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1071.0,1071.0,0.0,shared_exact
+167,05,River eels,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+167,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1072.0,1072.0,0.0,shared_exact
+167,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+168,06,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,350.0,350.0,0.0,shared_exact
+168,06,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,170.0,170.0,0.0,shared_exact
+168,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1320.0,1320.0,0.0,shared_exact
+168,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+168,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+168,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+168,71,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+168,71,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,species_only_zero
+168,71,Red seaweeds,2021,Aquaculture,Q_tlw,500.0,500.0,0.0,shared_exact
+168,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+169,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,550.0,550.0,0.0,shared_exact
+169,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+169,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4600.0,4600.0,0.0,shared_exact
+169,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,9000.0,9000.0,0.0,shared_exact
+170,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.138,0.0,-0.138,original_only_positive
+170,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,25.2,25.2,0.0,shared_exact
+170,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4312.36,4312.36,0.0,shared_exact
+170,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,51580.591,51580.591,0.0,shared_exact
+170,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3462.833,3462.833,0.0,shared_exact
+170,87,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,Brown seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,9.896,9.896,0.0,shared_exact
+170,87,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+170,87,"Scallops, pectens",2021,Aquaculture,Q_tlw,54944.317,54944.317,0.0,shared_exact
+170,87,"Shrimps, prawns",2021,Aquaculture,Q_tlw,36482.398,36482.398,0.0,shared_exact
+170,87,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+171,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,14306.633,14306.633,0.0,shared_exact
+171,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.48,0.48,0.0,shared_exact
+171,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,16202.464,16202.464,0.0,shared_exact
+171,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,7514.666,7514.666,0.0,shared_exact
+171,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,260872.311,260872.31100000002,2.9103830456733704e-11,shared_exact
+171,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,23112.488,23112.488,0.0,shared_exact
+171,71,Green seaweeds,2021,Aquaculture,Q_tlw,1090.019,1090.019,0.0,shared_exact
+171,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,6.395,6.395,0.0,shared_exact
+171,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,306.122,306.122,0.0,shared_exact
+171,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,247.98,247.98,0.0,shared_exact
+171,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,426065.286,426065.286,0.0,shared_exact
+171,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,23.415,0.0,-23.415,original_only_positive
+171,71,Mussels,2021,Aquaculture,Q_tlw,23707.056,23707.056,0.0,shared_exact
+171,71,Oysters,2021,Aquaculture,Q_tlw,40736.898,40736.898,0.0,shared_exact
+171,71,Red seaweeds,2021,Aquaculture,Q_tlw,1342616.535,1342616.535,0.0,shared_exact
+171,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,69288.458,69288.458,0.0,shared_exact
+171,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20241.988,20241.987999999998,-3.637978807091713e-12,shared_exact
+173,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,19651.0,19651.0,0.0,shared_exact
+173,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+173,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3704.0,3704.0,0.0,shared_exact
+173,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,20498.0,20498.0,0.0,shared_exact
+173,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,933.0,933.0,0.0,shared_exact
+173,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+174,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,4.0,0.0,-4.0,original_only_positive
+174,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+174,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+174,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,857.0,857.0,0.0,shared_exact
+174,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1.955,1.955,0.0,shared_exact
+174,27,Brown seaweeds,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+174,27,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,3.88,3.88,0.0,shared_exact
+174,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,5310.126,5310.126,0.0,shared_exact
+174,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,3866.009,3866.009,0.0,shared_exact
+174,27,Green seaweeds,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+174,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,3557.93,0.0,-3557.93,original_only_positive
+174,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3924.32,3924.32,0.0,shared_exact
+174,27,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+174,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+174,27,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,1.47,0.0,-1.47,original_only_positive
+174,27,Mussels,2021,Aquaculture,Q_tlw,3043.47,3043.47,0.0,shared_exact
+174,27,Oysters,2021,Aquaculture,Q_tlw,2479.903,2479.9030000000002,4.547473508864641e-13,shared_exact
+174,27,Red seaweeds,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+174,27,River eels,2021,Aquaculture,Q_tlw,0.042,0.042,0.0,shared_exact
+174,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,250.0,0.0,-250.0,original_only_positive
+174,27,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2.77,2.77,0.0,shared_exact
+174,27,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+174,27,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,40.0,0.0,-40.0,original_only_positive
+175,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+176,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+176,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,67.0,67.0,0.0,shared_exact
+176,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,270.0,270.0,0.0,shared_exact
+176,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+176,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+176,57,Red seaweeds,2021,Aquaculture,Q_tlw,700.0,700.0,0.0,shared_exact
+176,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,13.0,13.0,0.0,shared_exact
+177,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+177,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+177,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+177,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+177,31,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+177,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+177,31,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+177,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+178,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+178,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+178,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+179,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,32.5,32.5,0.0,shared_exact
+179,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,35.4,35.4,0.0,shared_exact
+179,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+179,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,36.0,36.0,0.0,shared_exact
+18,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,173.0,173.0,0.0,shared_exact
+18,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+18,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+180,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,6.3,0.0,-6.3,original_only_positive
+180,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,6.2,6.2,0.0,shared_exact
+180,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+180,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+181,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+181,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,55.65,55.65,0.0,shared_exact
+181,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,34.67,34.67,0.0,shared_exact
+181,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,4967.5,4967.499999999999,-9.094947017729282e-13,shared_exact
+182,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+182,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+182,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,22.5,22.5,0.0,shared_exact
+182,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+182,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+182,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+182,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+182,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+182,51,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+182,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+182,51,Turtles,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+183,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,8346.0,8346.0,0.0,shared_exact
+183,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.044,0.0,-0.044,original_only_positive
+183,05,Frogs and other amphibians,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+183,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,338.0,338.0,0.0,shared_exact
+183,05,River eels,2021,Aquaculture,Q_tlw,83.0,0.0,-83.0,original_only_positive
+183,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2747.0,2747.0,0.0,shared_exact
+183,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,283.0,283.0,0.0,shared_exact
+183,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+183,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.65,0.0,-0.65,original_only_positive
+183,37,Mussels,2021,Aquaculture,Q_tlw,24.64,0.0,-24.64,original_only_positive
+183,37,Oysters,2021,Aquaculture,Q_tlw,0.13,0.0,-0.13,original_only_positive
+184,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,6.3,6.3,0.0,shared_exact
+184,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+184,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,605.0,605.0,0.0,shared_exact
+184,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,9700.0,9700.0,0.0,shared_exact
+185,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,124467.0,124467.0,0.0,shared_exact
+185,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,194.0,194.0,0.0,shared_exact
+185,05,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,35.0,35.0,0.0,shared_exact
+185,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4059.0,4059.0,0.0,shared_exact
+185,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,56677.0,56677.0,0.0,shared_exact
+185,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,5047.0,5047.0,0.0,shared_exact
+185,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,27,Brown seaweeds,2021,Aquaculture,Q_tlw,13.0,0.0,-13.0,original_only_positive
+185,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,27,Mussels,2021,Aquaculture,Q_tlw,35.0,35.0,0.0,shared_exact
+185,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,70235.0,70235.0,0.0,shared_exact
+185,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,37,Mussels,2021,Aquaculture,Q_tlw,1584.0,1584.0,0.0,shared_exact
+185,37,Oysters,2021,Aquaculture,Q_tlw,332.0,332.0,0.0,shared_exact
+185,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,37,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,61,Brown seaweeds,2021,Aquaculture,Q_tlw,23863.0,23863.0,0.0,shared_exact
+185,61,"King crabs, squat-lobsters",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+185,61,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,154.0,154.0,0.0,shared_exact
+185,61,Mussels,2021,Aquaculture,Q_tlw,2121.0,2121.0,0.0,shared_exact
+185,61,Oysters,2021,Aquaculture,Q_tlw,4242.0,4242.0,0.0,shared_exact
+185,61,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,34.0,34.0,0.0,shared_exact
+185,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,17658.0,17658.0,0.0,shared_exact
+185,61,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,8605.0,8605.0,0.0,shared_exact
+186,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+186,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+186,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+186,37,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+186,37,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+188,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+188,31,Red seaweeds,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+188,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+188,31,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+189,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.81,1.81,0.0,shared_exact
+189,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,4.74,4.74,0.0,shared_exact
+189,31,Red seaweeds,2021,Aquaculture,Q_tlw,204.17,204.17,0.0,shared_exact
+19,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1000.0,1000.0,0.0,shared_exact
+19,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,17242.0,17242.0,0.0,shared_exact
+19,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,550.0,550.0,0.0,shared_exact
+19,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,110.0,110.0,0.0,shared_exact
+190,21,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+190,21,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+191,31,Red seaweeds,2021,Aquaculture,Q_tlw,13.0,13.0,0.0,shared_exact
+194,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,922.0,922.0,0.0,shared_exact
+194,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1025.0,1025.0,0.0,shared_exact
+194,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,12.0,12.0,0.0,shared_exact
+194,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,26333.9,26333.9,0.0,shared_exact
+194,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,10285.0,10285.0,0.0,shared_exact
+194,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,14000.0,14000.0,0.0,shared_exact
+194,51,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+194,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,60711.76,60711.76,0.0,shared_exact
+194,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1200.0,1200.0,0.0,shared_exact
+195,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+195,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+195,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+195,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,570.0,570.0,0.0,shared_exact
+195,34,Mussels,2021,Aquaculture,Q_tlw,190.0,190.0,0.0,shared_exact
+195,34,Oysters,2021,Aquaculture,Q_tlw,290.0,290.0,0.0,shared_exact
+195,34,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+195,34,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+196,51,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,species_only_zero
+196,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+197,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+197,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,105.0,105.0,0.0,shared_exact
+198,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,147.2,147.20000000000002,2.842170943040401e-14,shared_exact
+198,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,70.4,0.0,-70.4,original_only_positive
+198,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,94.6,94.60000000000001,1.4210854715202004e-14,shared_exact
+198,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,931.2,931.2,0.0,shared_exact
+198,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1.9,1.9,0.0,shared_exact
+198,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,11.9,11.9,0.0,shared_exact
+198,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+198,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,80.6,80.6,0.0,shared_exact
+198,37,Mussels,2021,Aquaculture,Q_tlw,418.5,418.5,0.0,shared_exact
+199,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,590.0,590.0,0.0,shared_exact
+199,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,714.0,714.0,0.0,shared_exact
+199,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1210.0,1210.0,0.0,shared_exact
+199,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1.05,0.0,-1.05,original_only_positive
+2,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,11067.0,11067.0,0.0,shared_exact
+2,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+20,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+20,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,162.0,162.0,0.0,shared_exact
+200,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,6.27,6.2700000000000005,8.881784197001252e-16,shared_exact
+200,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,6.5,6.5,0.0,shared_exact
+200,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,360.7,360.7,0.0,shared_exact
+200,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+200,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,284.57,284.57,0.0,shared_exact
+200,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,68.56,68.56,0.0,shared_exact
+200,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,66.91,66.91,0.0,shared_exact
+200,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,18.6,18.6,0.0,shared_exact
+200,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,7.04,7.04,0.0,shared_exact
+200,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1492.29,1492.2900000000002,2.2737367544323206e-13,shared_exact
+200,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2055.234,2055.234,0.0,shared_exact
+200,71,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+200,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,282.5,282.5,0.0,shared_exact
+200,71,Mussels,2021,Aquaculture,Q_tlw,360.35,360.35,0.0,shared_exact
+200,71,Oysters,2021,Aquaculture,Q_tlw,0.85,0.85,0.0,shared_exact
+200,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,99.22,99.22,0.0,shared_exact
+200,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,133.97,133.97,0.0,shared_exact
+202,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12.3,12.3,0.0,shared_exact
+202,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+202,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+202,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,57.6,57.6,0.0,shared_exact
+202,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1145.0,1145.0,0.0,shared_exact
+202,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,246.6,246.6,0.0,shared_exact
+202,47,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,2463.29,2463.29,0.0,shared_exact
+202,47,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+202,47,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+202,47,Green seaweeds,2021,Aquaculture,Q_tlw,2595.03,2595.03,0.0,shared_exact
+202,47,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,4.36,4.36,0.0,shared_exact
+202,47,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,8.1,8.1,0.0,shared_exact
+202,47,Mussels,2021,Aquaculture,Q_tlw,3420.88,3420.88,0.0,shared_exact
+202,47,Oysters,2021,Aquaculture,Q_tlw,390.49,390.49,0.0,shared_exact
+202,47,Red seaweeds,2021,Aquaculture,Q_tlw,450.0,0.0,-450.0,original_only_positive
+202,47,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,7.02,0.0,-7.02,original_only_positive
+202,47,Sea-squirts and other tunicates,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+202,47,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5.4,0.0,-5.4,original_only_positive
+203,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,6.889,6.889,0.0,shared_exact
+203,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3000.0,3000.0,0.0,shared_exact
+203,05,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,24.59,24.59,0.0,shared_exact
+203,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.055,0.0,-0.055,original_only_positive
+203,05,River eels,2021,Aquaculture,Q_tlw,300.0,300.0,0.0,shared_exact
+203,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,18055.562,18055.562,0.0,shared_exact
+203,05,"Shrimps, prawns",2021,Aquaculture,Q_tlw,45.0,45.0,0.0,shared_exact
+203,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,121.36,121.36,0.0,shared_exact
+203,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.915,0.0,-1.915,original_only_positive
+203,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1.762,0.0,-1.762,original_only_positive
+203,27,Brown seaweeds,2021,Aquaculture,Q_tlw,0.135,0.0,-0.135,original_only_positive
+203,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,1703.458,1703.4579999999996,-4.547473508864641e-13,shared_exact
+203,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,27,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+203,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,9500.378,9500.377999999999,-1.8189894035458565e-12,shared_exact
+203,27,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,19.0,0.0,-19.0,original_only_positive
+203,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,27,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.28,0.0,-0.28,original_only_positive
+203,27,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+203,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,4906.047,4906.047,0.0,shared_exact
+203,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.05,0.0,-0.05,original_only_positive
+203,27,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,27,Mussels,2021,Aquaculture,Q_tlw,198387.621,198387.621,0.0,shared_exact
+203,27,Oysters,2021,Aquaculture,Q_tlw,1009.346,1009.346,0.0,shared_exact
+203,27,Red seaweeds,2021,Aquaculture,Q_tlw,0.128,0.0,-0.128,original_only_positive
+203,27,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11.606,0.0,-11.606,original_only_positive
+203,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,5.219,5.219,0.0,shared_exact
+203,27,"Shrimps, prawns",2021,Aquaculture,Q_tlw,228.19,228.19,0.0,shared_exact
+203,27,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+203,27,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+203,27,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+203,34,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,34,Green seaweeds,2021,Aquaculture,Q_tlw,1.089,0.0,-1.089,original_only_positive
+203,34,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.375,0.0,-0.375,original_only_positive
+203,34,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,4497.99,4497.99,0.0,shared_exact
+203,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,7.5,0.0,-7.5,original_only_positive
+203,34,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.048,0.0,-0.048,original_only_positive
+203,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,19.441,0.0,-19.441,original_only_positive
+203,37,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.05,0.0,-0.05,original_only_positive
+203,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,24308.697,24308.697,0.0,shared_exact
+203,37,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,139.516,139.516,0.0,shared_exact
+203,37,Mussels,2021,Aquaculture,Q_tlw,4838.125,4838.125,0.0,shared_exact
+203,37,Oysters,2021,Aquaculture,Q_tlw,422.564,422.564,0.0,shared_exact
+203,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+203,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,3.504,0.0,-3.504,original_only_positive
+203,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,8399.497,8399.497,0.0,shared_exact
+206,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+206,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+207,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+207,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+207,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+207,31,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+208,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1800.0,1800.0,0.0,shared_exact
+208,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,135.0,135.0,0.0,shared_exact
+208,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,104.0,104.0,0.0,shared_exact
+209,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+209,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+209,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+209,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+21,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,16199.958,16199.958,0.0,shared_exact
+21,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,150.0,150.0,0.0,shared_exact
+21,03,Frogs and other amphibians,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+21,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,179410.039,179410.03900000002,2.9103830456733704e-11,shared_exact
+21,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1993.66,1993.66,0.0,shared_exact
+21,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,361387.96,361387.95999999996,-5.820766091346741e-11,shared_exact
+21,03,Turtles,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+21,41,Marine fishes not identified,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+21,41,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+21,41,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+21,41,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+21,41,Mussels,2021,Aquaculture,Q_tlw,9258.2,9258.2,0.0,shared_exact
+21,41,Oysters,2021,Aquaculture,Q_tlw,2150.0,2150.0,0.0,shared_exact
+21,41,Red seaweeds,2021,Aquaculture,Q_tlw,1130.0,1130.0,0.0,shared_exact
+21,41,"Scallops, pectens",2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+21,41,"Shrimps, prawns",2021,Aquaculture,Q_tlw,78637.41,78637.41,0.0,shared_exact
+210,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+210,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+210,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,150.0,150.0,0.0,shared_exact
+210,05,River eels,2021,Aquaculture,Q_tlw,93.0,93.0,0.0,shared_exact
+210,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11060.0,11060.0,0.0,shared_exact
+210,27,Mussels,2021,Aquaculture,Q_tlw,3457.0,3457.0,0.0,shared_exact
+210,27,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+210,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,643.0,643.0,0.0,shared_exact
+211,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+211,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+211,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,830.0,830.0,0.0,shared_exact
+211,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1453.0,1453.0,0.0,shared_exact
+211,05,"Shrimps, prawns",2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+211,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+211,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,60.0,0.0,-60.0,original_only_positive
+212,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,705.0,705.0,0.0,shared_exact
+212,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,500.0,500.0,0.0,shared_exact
+212,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,600.0,600.0,0.0,shared_exact
+213,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,130.0,130.0,0.0,shared_exact
+213,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+213,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+214,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,3890.367,3890.367,0.0,shared_exact
+214,04,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+214,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,5436.844,5436.844,0.0,shared_exact
+214,04,Freshwater molluscs,2021,Aquaculture,Q_tlw,4139.234,4139.234,0.0,shared_exact
+214,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,1469.558,1469.558,0.0,shared_exact
+214,04,Marine fishes not identified,2021,Aquaculture,Q_tlw,1147.758,1147.758,0.0,shared_exact
+214,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+214,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2799.744,2799.744,0.0,shared_exact
+214,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,33429.542,33429.542,0.0,shared_exact
+214,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,2375.659,2375.659,0.0,shared_exact
+214,04,River eels,2021,Aquaculture,Q_tlw,5044.3,5044.3,0.0,shared_exact
+214,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2167.273,2167.273,0.0,shared_exact
+214,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,4101.753,4101.753000000001,9.094947017729282e-13,shared_exact
+214,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,49719.655,49719.655,0.0,shared_exact
+214,04,Turtles,2021,Aquaculture,Q_tlw,1171.922,1171.922,0.0,shared_exact
+214,61,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,176.586,176.586,0.0,shared_exact
+214,61,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,52991.737,52991.737,0.0,shared_exact
+214,61,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,45.669,45.669,0.0,shared_exact
+214,61,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+214,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,1139.907,1139.907,0.0,shared_exact
+214,61,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+214,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,32224.376,32224.376,0.0,shared_exact
+214,61,Miscellaneous demersal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+214,61,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,34273.039,34273.039000000004,7.275957614183426e-12,shared_exact
+214,61,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+214,61,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,186.0,186.0,0.0,shared_exact
+214,61,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,2506.973,2506.973,0.0,shared_exact
+214,61,Oysters,2021,Aquaculture,Q_tlw,17850.631,17850.631,0.0,shared_exact
+214,61,Red seaweeds,2021,Aquaculture,Q_tlw,289.85,289.84999999999997,-5.684341886080802e-14,shared_exact
+214,61,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+214,61,"Shrimps, prawns",2021,Aquaculture,Q_tlw,6144.79,6144.79,0.0,shared_exact
+214,61,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10066.435,10066.435,0.0,shared_exact
+215,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1264.0,1264.0,0.0,shared_exact
+215,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+215,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,24016.4,24016.4,0.0,shared_exact
+215,51,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,1.394,1.394,0.0,shared_exact
+215,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,6.0,6.0,0.0,shared_exact
+215,51,Red seaweeds,2021,Aquaculture,Q_tlw,39538.0,39538.0,0.0,shared_exact
+215,51,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,3.7,3.7,0.0,shared_exact
+215,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,74.85,74.85,0.0,shared_exact
+216,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,27696.0,27696.0,0.0,shared_exact
+216,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,43435.0,43435.0,0.0,shared_exact
+216,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,2211.0,2211.0,0.0,shared_exact
+216,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,123647.0,123647.0,0.0,shared_exact
+216,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,253672.0,253672.0,0.0,shared_exact
+216,04,Turtles,2021,Aquaculture,Q_tlw,70.0,70.0,0.0,shared_exact
+216,57,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+216,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,953.0,953.0,0.0,shared_exact
+216,57,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,665.0,665.0,0.0,shared_exact
+216,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,619.0,619.0,0.0,shared_exact
+216,57,Mussels,2021,Aquaculture,Q_tlw,383.0,383.0,0.0,shared_exact
+216,57,Oysters,2021,Aquaculture,Q_tlw,216.0,216.0,0.0,shared_exact
+216,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,68901.0,68901.0,0.0,shared_exact
+216,71,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+216,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,33521.0,33521.0,0.0,shared_exact
+216,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,2529.0,2529.0,0.0,shared_exact
+216,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,12.0,12.0,0.0,shared_exact
+216,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,605.0,605.0,0.0,shared_exact
+216,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,47520.0,47520.0,0.0,shared_exact
+216,71,Mussels,2021,Aquaculture,Q_tlw,51684.0,51684.0,0.0,shared_exact
+216,71,Oysters,2021,Aquaculture,Q_tlw,13101.0,13101.0,0.0,shared_exact
+216,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,319407.0,319407.0,0.0,shared_exact
+216,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,133.0,0.0,-133.0,original_only_positive
+217,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,9.0,9.0,0.0,shared_exact
+217,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,873.0,873.0,0.0,shared_exact
+219,77,Brown seaweeds,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+219,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.03,0.0,-0.03,original_only_positive
+219,77,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+219,77,Red seaweeds,2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+22,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.5,1.5,0.0,shared_exact
+220,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+220,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.4,0.4,0.0,shared_exact
+220,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,17.8,17.8,0.0,shared_exact
+221,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,353.0,353.0,0.0,shared_exact
+221,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1350.0,1350.0,0.0,shared_exact
+221,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+221,51,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+222,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,431.0,431.0,0.0,shared_exact
+222,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,90.0,90.0,0.0,shared_exact
+222,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,265.0,265.0,0.0,shared_exact
+222,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,214.0,214.0,0.0,shared_exact
+222,01,River eels,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+222,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,26.585,26.585,0.0,shared_exact
+222,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+222,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+222,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+222,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,23612.6,23612.6,0.0,shared_exact
+222,37,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+222,37,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+222,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,29.0,0.0,-29.0,original_only_positive
+222,37,Mussels,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+222,37,Oysters,2021,Aquaculture,Q_tlw,47.0,47.0,0.0,shared_exact
+222,37,Red seaweeds,2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+222,37,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+222,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1.2,0.0,-1.2,original_only_positive
+222,37,"Squids, cuttlefishes, octopuses",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+222,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,1318.0,1318.0,0.0,shared_exact
+223,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,171.0,171.0,0.0,shared_exact
+223,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,49.0,49.0,0.0,shared_exact
+223,04,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+223,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+223,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,84.0,84.0,0.0,shared_exact
+223,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,135732.0,135732.0,0.0,shared_exact
+223,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+223,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+223,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,6.0,6.0,0.0,shared_exact
+223,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+223,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1442.0,0.0,-1442.0,original_only_positive
+223,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,294549.0,294549.0,0.0,shared_exact
+223,37,Mussels,2021,Aquaculture,Q_tlw,4585.0,4585.0,0.0,shared_exact
+223,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,31554.0,31554.0,0.0,shared_exact
+223,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+223,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,4952.0,4952.0,0.0,shared_exact
+224,31,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+224,31,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+225,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+225,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,78.0,78.0,0.0,shared_exact
+225,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+225,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,65.13,65.13,0.0,shared_exact
+225,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,12.6,12.6,0.0,shared_exact
+225,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1814.812,1814.812,0.0,shared_exact
+225,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,22.0,22.0,0.0,shared_exact
+225,51,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+225,51,Oysters,2021,Aquaculture,Q_tlw,220.0,220.0,0.0,shared_exact
+225,51,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,180.0,180.0,0.0,shared_exact
+225,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,168.0,168.0,0.0,shared_exact
+225,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,84.4,84.4,0.0,shared_exact
+226,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,416.0,416.0,0.0,shared_exact
+226,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+226,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,39671.4,39671.4,0.0,shared_exact
+226,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,98471.0,98471.0,0.0,shared_exact
+227,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+228,07,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,238790.0,0.0,-238790.0,original_only_positive
+228,07,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+228,07,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5724.0,0.0,-5724.0,original_only_positive
+228,07,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,74.0,0.0,-74.0,original_only_positive
+228,27,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+228,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,311.0,0.0,-311.0,original_only_positive
+228,37,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+228,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,71.0,0.0,-71.0,original_only_positive
+228,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+228,37,Mussels,2021,Aquaculture,Q_tlw,1370.0,0.0,-1370.0,original_only_positive
+228,61,Brown seaweeds,2021,Aquaculture,Q_tlw,9742.0,0.0,-9742.0,original_only_positive
+228,61,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+228,61,Mussels,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+228,61,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+228,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,153.0,0.0,-153.0,original_only_positive
+229,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,277.741,277.741,0.0,shared_exact
+229,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+229,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,43.01,43.01,0.0,shared_exact
+229,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,9150.99,9150.99,0.0,shared_exact
+229,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,3892.41,3892.41,0.0,shared_exact
+229,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.7,0.0,-0.7,original_only_positive
+229,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,169.0,169.0,0.0,shared_exact
+229,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+229,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+229,27,Mussels,2021,Aquaculture,Q_tlw,12223.2,12223.2,0.0,shared_exact
+229,27,Oysters,2021,Aquaculture,Q_tlw,2988.62,2988.62,0.0,shared_exact
+229,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,210537.0,210537.0,0.0,shared_exact
+229,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,3.26,3.2600000000000002,4.440892098500626e-16,shared_exact
+229,27,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+23,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+23,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,70.0,70.0,0.0,shared_exact
+23,31,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,31.0,0.0,-31.0,original_only_positive
+23,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+23,31,Red seaweeds,2021,Aquaculture,Q_tlw,9.0,9.0,0.0,shared_exact
+23,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,530.0,530.0,0.0,shared_exact
+230,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,13450.104,13450.104,0.0,shared_exact
+230,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+230,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+230,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3042.504,3042.504,0.0,shared_exact
+230,05,River eels,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+230,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,312.1,312.1,0.0,shared_exact
+230,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,77.1,77.1,0.0,shared_exact
+230,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+230,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,900.0,0.0,-900.0,original_only_positive
+230,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+230,37,Mussels,2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+230,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+230,37,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+231,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,743.0,743.0,0.0,shared_exact
+231,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,73675.95,73675.95,0.0,shared_exact
+231,02,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+231,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,152247.356,152247.356,0.0,shared_exact
+231,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,15799.042,15799.042,0.0,shared_exact
+231,02,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1166.198,1166.198,0.0,shared_exact
+231,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,6548.0,6548.0,0.0,shared_exact
+231,21,Brown seaweeds,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+231,21,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,24694.9,24694.9,0.0,shared_exact
+231,21,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+231,21,Mussels,2021,Aquaculture,Q_tlw,1402.838,1402.838,0.0,shared_exact
+231,21,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11127.189,11127.189,0.0,shared_exact
+231,31,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+231,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3244.58,3244.58,0.0,shared_exact
+231,31,Oysters,2021,Aquaculture,Q_tlw,130117.04,130117.04,0.0,shared_exact
+231,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2035.0,2035.0,0.0,shared_exact
+231,67,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,154.0,154.0,0.0,shared_exact
+231,67,Brown seaweeds,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+231,67,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,5145.453,5145.453,0.0,shared_exact
+231,67,Marine fishes not identified,2021,Aquaculture,Q_tlw,672.0,672.0,0.0,shared_exact
+231,67,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,187.0,0.0,-187.0,original_only_positive
+231,67,Oysters,2021,Aquaculture,Q_tlw,31936.568,31936.568000000003,3.637978807091713e-12,shared_exact
+231,67,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+231,67,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+231,77,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+231,77,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,400.0,400.0,0.0,shared_exact
+233,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+233,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,233.0,233.0,0.0,shared_exact
+233,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,585.0,585.0,0.0,shared_exact
+234,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+234,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.1,0.0,-0.1,original_only_positive
+234,03,Frogs and other amphibians,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+234,03,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+234,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+234,03,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,68.9,68.89999999999999,-1.4210854715202004e-14,shared_exact
+234,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.78,0.0,-1.78,original_only_positive
+234,41,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+235,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,98160.0,98160.0,0.0,shared_exact
+235,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20283.0,20283.0,0.0,shared_exact
+235,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,400.0,400.0,0.0,shared_exact
+235,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,90.0,90.0,0.0,shared_exact
+236,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+236,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4420.0,4420.0,0.0,shared_exact
+236,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+236,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,47.0,47.0,0.0,shared_exact
+236,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.68,0.0,-0.68,original_only_positive
+236,31,Mussels,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+236,31,Red seaweeds,2021,Aquaculture,Q_tlw,4005.0,4005.0,0.0,shared_exact
+236,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,44578.0,44578.0,0.0,shared_exact
+237,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,630397.38,630397.38,0.0,shared_exact
+237,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2740.12,2740.12,0.0,shared_exact
+237,04,Freshwater molluscs,2021,Aquaculture,Q_tlw,303.76,303.76,0.0,shared_exact
+237,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,10279.98,10279.98,0.0,shared_exact
+237,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1826537.51,1826537.51,0.0,shared_exact
+237,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,2660.76,2660.76,0.0,shared_exact
+237,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,187272.52,187272.52,0.0,shared_exact
+237,04,Turtles,2021,Aquaculture,Q_tlw,4151.69,4151.69,0.0,shared_exact
+237,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,81144.37,81144.37,0.0,shared_exact
+237,71,Green seaweeds,2021,Aquaculture,Q_tlw,900.0,900.0,0.0,shared_exact
+237,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,2421.84,2421.84,0.0,shared_exact
+237,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,18806.16,18806.16,0.0,shared_exact
+237,71,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,850.0,850.0,0.0,shared_exact
+237,71,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,634312.67,634312.67,0.0,shared_exact
+237,71,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,343766.19,343766.19,0.0,shared_exact
+237,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,5265.36,5265.36,0.0,shared_exact
+237,71,Red seaweeds,2021,Aquaculture,Q_tlw,13154.17,13154.17,0.0,shared_exact
+237,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+237,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,985149.35,985149.35,0.0,shared_exact
+238,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,291.0,291.0,0.0,shared_exact
+238,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,55.0,55.0,0.0,shared_exact
+238,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,394.0,394.0,0.0,shared_exact
+239,31,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+240,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,8.0,8.0,0.0,shared_exact
+244,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+244,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,8.0,8.0,0.0,shared_exact
+244,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.014,0.0,-0.014,original_only_positive
+244,77,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+244,77,Green seaweeds,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+244,77,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2.781,0.0,-2.781,original_only_positive
+248,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+248,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+248,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+248,37,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+248,37,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+248,37,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+249,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+249,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+25,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+25,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+25,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+25,71,Red seaweeds,2021,Aquaculture,Q_tlw,12455.74,12455.74,0.0,shared_exact
+25,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+250,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,95.0,95.0,0.0,shared_exact
+250,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5000.0,5000.0,0.0,shared_exact
+251,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+251,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+251,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1000.0,1000.0,0.0,shared_exact
+251,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,62155.0,62155.0,0.0,shared_exact
+255,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+255,05,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+255,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,223.0,223.0,0.0,shared_exact
+255,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+255,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+255,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+255,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,25.0,0.0,-25.0,original_only_positive
+259,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.13,0.0,-0.13,original_only_positive
+259,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+259,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+259,27,Mussels,2021,Aquaculture,Q_tlw,95.0,95.0,0.0,shared_exact
+259,27,Oysters,2021,Aquaculture,Q_tlw,1050.0,1050.0,0.0,shared_exact
+259,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+26,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+26,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2.472,2.472,0.0,shared_exact
+26,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,7.746,7.7459999999999996,-8.881784197001252e-16,shared_exact
+26,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,7.723,7.723,0.0,shared_exact
+26,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,1.352,1.352,0.0,shared_exact
+26,71,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.37,0.37,0.0,shared_exact
+26,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,125.0,0.0,-125.0,original_only_positive
+26,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,75.984,75.984,0.0,shared_exact
+26,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,109.66,109.66,0.0,shared_exact
+26,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,76.387,76.387,0.0,shared_exact
+26,71,Mussels,2021,Aquaculture,Q_tlw,1.013,1.013,0.0,shared_exact
+26,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,4481.24,4481.24,0.0,shared_exact
+26,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3.975,3.975,0.0,shared_exact
+27,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,6254.73,6254.73,0.0,shared_exact
+27,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,6.64,6.64,0.0,shared_exact
+27,05,Frogs and other amphibians,2021,Aquaculture,Q_tlw,0.12,0.0,-0.12,original_only_positive
+27,05,Green seaweeds,2021,Aquaculture,Q_tlw,1.42,0.0,-1.42,original_only_positive
+27,05,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,9.8,9.8,0.0,shared_exact
+27,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+27,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,436.63,436.63,0.0,shared_exact
+27,05,River eels,2021,Aquaculture,Q_tlw,35.0,0.0,-35.0,original_only_positive
+27,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5468.9,5468.900000000001,9.094947017729282e-13,shared_exact
+27,05,"Shrimps, prawns",2021,Aquaculture,Q_tlw,18.42,18.42,0.0,shared_exact
+27,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,404.69,404.69,0.0,shared_exact
+27,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.12,0.12,0.0,shared_exact
+27,37,Mussels,2021,Aquaculture,Q_tlw,2573.69,2573.69,0.0,shared_exact
+27,37,Oysters,2021,Aquaculture,Q_tlw,2.57,0.0,-2.57,original_only_positive
+270,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+270,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+270,51,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+270,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+272,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,5649.19,5649.1900000000005,9.094947017729282e-13,shared_exact
+272,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,102.31,102.31,0.0,shared_exact
+272,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1556.39,1556.39,0.0,shared_exact
+273,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+273,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,561.0,561.0,0.0,shared_exact
+273,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,79.0,79.0,0.0,shared_exact
+273,37,Mussels,2021,Aquaculture,Q_tlw,186.0,186.0,0.0,shared_exact
+273,37,Oysters,2021,Aquaculture,Q_tlw,32.0,32.0,0.0,shared_exact
+273,37,River eels,2021,Aquaculture,Q_tlw,9.0,0.0,-9.0,original_only_positive
+276,51,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+276,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+276,51,Red seaweeds,2021,Aquaculture,Q_tlw,105308.0,105308.0,0.0,shared_exact
+276,51,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,13.0,13.0,0.0,shared_exact
+28,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1030557.21,1030557.2100000001,1.1641532182693481e-10,shared_exact
+28,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,19201.0,19201.0,0.0,shared_exact
+28,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,22159.48,22159.48,0.0,shared_exact
+28,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,39050.32,39050.32,0.0,shared_exact
+28,57,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,755.59,755.59,0.0,shared_exact
+28,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,3096.0,3096.0,0.0,shared_exact
+28,57,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,6.81,6.81,0.0,shared_exact
+28,57,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,15605.0,0.0,-15605.0,original_only_positive
+28,57,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,14.83,0.0,-14.83,original_only_positive
+28,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1536.22,1536.22,0.0,shared_exact
+28,57,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,800.0,0.0,-800.0,original_only_positive
+28,57,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,6.2,6.2,0.0,shared_exact
+28,57,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+28,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,50987.86,50987.85999999999,-7.275957614183426e-12,shared_exact
+28,57,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,800.0,0.0,-800.0,original_only_positive
+283,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.2,0.2,0.0,shared_exact
+283,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+286,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.5,0.0,-0.5,original_only_positive
+29,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+29,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,75.0,75.0,0.0,shared_exact
+29,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,450.0,450.0,0.0,shared_exact
+290,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+290,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+298,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,2000.0,2000.0,0.0,shared_exact
+298,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,7000.0,7000.0,0.0,shared_exact
+299,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+299,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+299,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,71.0,71.0,0.0,shared_exact
+299,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,620.0,620.0,0.0,shared_exact
+3,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+3,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+3,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+3,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1861.0,1861.0,0.0,shared_exact
+3,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,6187.0,6187.0,0.0,shared_exact
+3,37,Mussels,2021,Aquaculture,Q_tlw,593.0,593.0,0.0,shared_exact
+3,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,8.0,0.0,-8.0,original_only_positive
+32,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+32,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4848.0,4848.0,0.0,shared_exact
+32,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,4935.0,4935.0,0.0,shared_exact
+33,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1571.0,1571.0,0.0,shared_exact
+33,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,8389.0,8389.0,0.0,shared_exact
+33,02,"Shrimps, prawns",2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+33,21,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,13.0,13.0,0.0,shared_exact
+33,21,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+33,21,Marine fishes not identified,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+33,21,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,306.0,306.0,0.0,shared_exact
+33,21,Mussels,2021,Aquaculture,Q_tlw,22086.0,22086.0,0.0,shared_exact
+33,21,Oysters,2021,Aquaculture,Q_tlw,9347.0,9347.0,0.0,shared_exact
+33,21,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,52401.0,52401.0,0.0,shared_exact
+33,21,"Scallops, pectens",2021,Aquaculture,Q_tlw,55.0,55.0,0.0,shared_exact
+33,21,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+33,67,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,986.0,986.0,0.0,shared_exact
+33,67,Marine fishes not identified,2021,Aquaculture,Q_tlw,1200.0,1200.0,0.0,shared_exact
+33,67,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+33,67,Mussels,2021,Aquaculture,Q_tlw,481.0,481.0,0.0,shared_exact
+33,67,Oysters,2021,Aquaculture,Q_tlw,7997.0,7997.0,0.0,shared_exact
+33,67,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,85348.0,85348.0,0.0,shared_exact
+33,67,"Scallops, pectens",2021,Aquaculture,Q_tlw,52.0,52.0,0.0,shared_exact
+35,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,28.0,28.0,0.0,shared_exact
+36,31,Turtles,2021,Aquaculture,Q_tlw,85.0,85.0,0.0,shared_exact
+37,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,35.0,35.0,0.0,shared_exact
+37,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+37,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+37,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,105.0,105.0,0.0,shared_exact
+38,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,14146.0,14146.0,0.0,shared_exact
+38,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,296.0,296.0,0.0,shared_exact
+38,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,225.19,0.0,-225.19,original_only_positive
+38,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+38,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20341.0,20341.0,0.0,shared_exact
+38,57,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,6.708,6.708,0.0,shared_exact
+38,57,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+38,57,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,470.714,470.714,0.0,shared_exact
+38,57,Mussels,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+38,57,Oysters,2021,Aquaculture,Q_tlw,13.0,0.0,-13.0,original_only_positive
+38,57,Red seaweeds,2021,Aquaculture,Q_tlw,218.0,218.0,0.0,shared_exact
+38,57,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,580.0,580.0,0.0,shared_exact
+38,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,14413.564,14413.564,0.0,shared_exact
+38,57,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,505.24,505.24,0.0,shared_exact
+39,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+39,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+39,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,70.0,70.0,0.0,shared_exact
+4,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1569.845,1569.845,0.0,shared_exact
+4,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,64.528,64.528,0.0,shared_exact
+4,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,417.146,417.146,0.0,shared_exact
+4,01,River eels,2021,Aquaculture,Q_tlw,6.8,6.8,0.0,shared_exact
+4,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,103.39,0.0,-103.39,original_only_positive
+4,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,104.972,104.972,0.0,shared_exact
+4,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+4,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,2.2,2.2,0.0,shared_exact
+4,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2556.746,2556.746,0.0,shared_exact
+4,37,Mussels,2021,Aquaculture,Q_tlw,51.906,51.906,0.0,shared_exact
+4,37,Oysters,2021,Aquaculture,Q_tlw,4.814,4.814,0.0,shared_exact
+4,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.33,0.33,0.0,shared_exact
+40,03,Green seaweeds,2021,Aquaculture,Q_tlw,72.0,72.0,0.0,shared_exact
+40,03,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,1361.0,1361.0,0.0,shared_exact
+40,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,12920.0,0.0,-12920.0,original_only_positive
+40,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1083.0,1083.0,0.0,shared_exact
+40,03,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,7.0,7.0,0.0,shared_exact
+40,87,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1124.0,1124.0,0.0,shared_exact
+40,87,Brown seaweeds,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+40,87,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+40,87,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+40,87,Miscellaneous demersal fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+40,87,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,8.0,8.0,0.0,shared_exact
+40,87,Mussels,2021,Aquaculture,Q_tlw,425849.0,425849.0,0.0,shared_exact
+40,87,Oysters,2021,Aquaculture,Q_tlw,477.0,477.0,0.0,shared_exact
+40,87,Red seaweeds,2021,Aquaculture,Q_tlw,15569.0,15569.0,0.0,shared_exact
+40,87,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,994075.0,994075.0,0.0,shared_exact
+40,87,"Scallops, pectens",2021,Aquaculture,Q_tlw,3890.0,3890.0,0.0,shared_exact
+41,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,20232114.0,20232114.0,0.0,shared_exact
+41,04,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,5154.0,0.0,-5154.0,original_only_positive
+41,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3880344.0,3880344.0,0.0,shared_exact
+41,04,Freshwater molluscs,2021,Aquaculture,Q_tlw,195994.0,195994.0,0.0,shared_exact
+41,04,Frogs and other amphibians,2021,Aquaculture,Q_tlw,174997.0,174997.0,0.0,shared_exact
+41,04,Green seaweeds,2021,Aquaculture,Q_tlw,200.0,200.0,0.0,shared_exact
+41,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,50181.914,50181.914,0.0,shared_exact
+41,04,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,83270.0,83270.0,0.0,shared_exact
+41,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,14559.0,14559.0,0.0,shared_exact
+41,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4059059.0,4059059.0,0.0,shared_exact
+41,04,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,475.086,475.086,species_only_positive
+41,04,River eels,2021,Aquaculture,Q_tlw,255311.0,255311.0,0.0,shared_exact
+41,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,57206.0,57206.0,0.0,shared_exact
+41,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,703767.0,703767.0,0.0,shared_exact
+41,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,121875.0,121875.0,0.0,shared_exact
+41,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1662637.0,1662637.0,0.0,shared_exact
+41,04,Turtles,2021,Aquaculture,Q_tlw,415829.0,415829.0,0.0,shared_exact
+41,61,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,517451.0,517451.0,0.0,shared_exact
+41,61,Brown seaweeds,2021,Aquaculture,Q_tlw,15509885.0,15509885.0,0.0,shared_exact
+41,61,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,5489826.0,5489826.0,0.0,shared_exact
+41,61,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,282655.0,282655.0,0.0,shared_exact
+41,61,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,122853.0,122853.0,0.0,shared_exact
+41,61,Green seaweeds,2021,Aquaculture,Q_tlw,840.0,840.0,0.0,shared_exact
+41,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,560758.0,560758.0,0.0,shared_exact
+41,61,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,201028.259,201028.25900000002,2.9103830456733704e-11,shared_exact
+41,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,867682.0,867682.0,0.0,shared_exact
+41,61,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,762682.0,762682.0,0.0,shared_exact
+41,61,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,292407.0,292407.0,0.0,shared_exact
+41,61,Mussels,2021,Aquaculture,Q_tlw,829481.0,829481.0,0.0,shared_exact
+41,61,Oysters,2021,Aquaculture,Q_tlw,5819188.0,5819188.0,0.0,shared_exact
+41,61,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,2.008,2.008,species_only_positive
+41,61,Red seaweeds,2021,Aquaculture,Q_tlw,5989980.0,5989980.0,0.0,shared_exact
+41,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,1842069.0,1842069.0,0.0,shared_exact
+41,61,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,236297.733,236297.733,0.0,shared_exact
+41,61,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1572293.0,1572293.0,0.0,shared_exact
+41,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+44,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,104.805,104.805,0.0,shared_exact
+44,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+44,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,45934.212,45934.21199999999,-7.275957614183426e-12,shared_exact
+44,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,30185.28,30185.28,0.0,shared_exact
+44,03,"Shrimps, prawns",2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+44,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,109421.64,109421.64,0.0,shared_exact
+44,31,Marine fishes not identified,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+44,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,3012.066,3012.066,0.0,shared_exact
+44,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,150.0,0.0,-150.0,original_only_positive
+44,31,Oysters,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+44,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,3863.0,3863.0,0.0,shared_exact
+44,87,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1000.0,0.0,-1000.0,original_only_positive
+46,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,166.0,166.0,0.0,shared_exact
+46,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,745.0,745.0,0.0,shared_exact
+47,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+47,77,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+47,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,5.5,5.5,0.0,shared_exact
+47,77,Green seaweeds,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+47,77,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+47,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+48,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+48,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.23,0.23,0.0,shared_exact
+48,02,Freshwater molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+48,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,25.0,25.0,0.0,shared_exact
+48,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,900.0,900.0,0.0,shared_exact
+48,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,12929.0,12929.0,0.0,shared_exact
+48,77,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,850.0,850.0,0.0,shared_exact
+48,77,Oysters,2021,Aquaculture,Q_tlw,5.17,5.17,0.0,shared_exact
+48,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2600.0,2600.0,0.0,shared_exact
+49,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,13040.6,13040.6,0.0,shared_exact
+49,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3494.0,3494.0,0.0,shared_exact
+49,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,368.0,368.0,0.0,shared_exact
+49,31,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+49,31,Oysters,2021,Aquaculture,Q_tlw,1037.0,1037.0,0.0,shared_exact
+49,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,4725.0,4725.0,0.0,shared_exact
+5,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+50,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,51.8,51.8,0.0,shared_exact
+50,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,4.0,4.0,0.0,shared_exact
+50,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+50,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,7789.76,7789.76,0.0,shared_exact
+50,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,16.7,16.7,0.0,shared_exact
+50,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+51,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+51,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+51,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+51,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+52,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,348.0,348.0,0.0,shared_exact
+52,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+52,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,55.0,55.0,0.0,shared_exact
+52,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,104.0,104.0,0.0,shared_exact
+52,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+53,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1500.0,1500.0,0.0,shared_exact
+53,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2650.0,2650.0,0.0,shared_exact
+54,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+54,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+54,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,180.5,180.5,0.0,shared_exact
+54,05,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.06,0.0,-0.06,original_only_positive
+54,05,River eels,2021,Aquaculture,Q_tlw,87.0,87.0,0.0,shared_exact
+54,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,22011.0,22011.0,0.0,shared_exact
+54,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1.8,1.8,0.0,shared_exact
+54,27,Brown seaweeds,2021,Aquaculture,Q_tlw,9.4,9.4,0.0,shared_exact
+54,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+54,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+54,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+54,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+54,27,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,386.4,386.4,0.0,shared_exact
+54,27,Mussels,2021,Aquaculture,Q_tlw,8485.0,8485.0,0.0,shared_exact
+54,27,River eels,2021,Aquaculture,Q_tlw,1069.8,1069.8,0.0,shared_exact
+54,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,8363.3,8363.3,0.0,shared_exact
+55,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+55,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+55,31,Red seaweeds,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+56,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,211.0,211.0,0.0,shared_exact
+56,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+56,02,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+56,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,654.0,654.0,0.0,shared_exact
+56,02,River eels,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+56,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2050.0,2050.0,0.0,shared_exact
+56,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,421.0,421.0,0.0,shared_exact
+56,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+56,31,Oysters,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+56,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,300.0,300.0,0.0,shared_exact
+56,31,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+57,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,8075.0,8075.0,0.0,shared_exact
+57,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,195.3,195.3,0.0,shared_exact
+57,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,126.5,126.5,0.0,shared_exact
+57,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,108.1,108.1,0.0,shared_exact
+58,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+58,03,Frogs and other amphibians,2021,Aquaculture,Q_tlw,150.0,150.0,0.0,shared_exact
+58,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,319.19,319.19,0.0,shared_exact
+58,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,3948.75,3948.75,0.0,shared_exact
+58,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,9154.0,9154.0,0.0,shared_exact
+58,87,Marine fishes not identified,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+58,87,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+58,87,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+58,87,Oysters,2021,Aquaculture,Q_tlw,78.0,78.0,0.0,shared_exact
+58,87,Red seaweeds,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+58,87,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+58,87,"Shrimps, prawns",2021,Aquaculture,Q_tlw,890386.35,890386.35,0.0,shared_exact
+59,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,145473.0,145473.0,0.0,shared_exact
+59,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,320824.0,320824.0,0.0,shared_exact
+59,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,8514.4,8514.4,0.0,shared_exact
+59,01,River eels,2021,Aquaculture,Q_tlw,28.0,28.0,0.0,shared_exact
+59,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,963852.0,963852.0,0.0,shared_exact
+59,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+59,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,134049.0,134049.0,0.0,shared_exact
+59,37,River eels,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+59,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,3429.0,3429.0,0.0,shared_exact
+60,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+60,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+60,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+60,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,11848.852,11848.852,0.0,shared_exact
+60,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+60,77,Marine fishes not identified,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+60,77,Oysters,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+60,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,882.0,882.0,0.0,shared_exact
+61,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,9.0,9.0,0.0,shared_exact
+61,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,6.0,6.0,0.0,shared_exact
+63,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,29.8,0.0,-29.8,original_only_positive
+63,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.733,0.733,0.0,shared_exact
+63,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,122.281,122.281,0.0,shared_exact
+63,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+63,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,443.071,443.071,0.0,shared_exact
+63,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,14.575,14.575,0.0,shared_exact
+63,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,268.8,268.8,0.0,shared_exact
+64,27,Brown seaweeds,2021,Aquaculture,Q_tlw,110.0,110.0,0.0,shared_exact
+64,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,115650.0,115650.0,0.0,shared_exact
+65,41,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+65,41,Oysters,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+66,06,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+66,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+66,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,75.0,75.0,0.0,shared_exact
+66,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+66,71,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+66,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+66,71,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+66,71,Red seaweeds,2021,Aquaculture,Q_tlw,73.0,73.0,0.0,shared_exact
+66,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,8.1,8.1,0.0,shared_exact
+67,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,277.3,277.3,0.0,shared_exact
+67,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2695.0,2695.0,0.0,shared_exact
+67,27,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+67,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11427.1,11427.1,0.0,shared_exact
+68,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2351.13,2351.13,0.0,shared_exact
+68,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+68,05,Frogs and other amphibians,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+68,05,Green seaweeds,2021,Aquaculture,Q_tlw,6.22,0.0,-6.22,original_only_positive
+68,05,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,203.711,203.711,0.0,shared_exact
+68,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+68,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,563.317,563.317,0.0,shared_exact
+68,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+68,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,35091.229,35091.229,0.0,shared_exact
+68,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,244.687,244.687,0.0,shared_exact
+68,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,7.0,7.0,0.0,shared_exact
+68,27,Brown seaweeds,2021,Aquaculture,Q_tlw,77.63,77.63,0.0,shared_exact
+68,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,2023.059,2023.059,0.0,shared_exact
+68,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,655.8,0.0,-655.8,original_only_positive
+68,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,1752.0,0.0,-1752.0,original_only_positive
+68,27,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,48.938,48.938,0.0,shared_exact
+68,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2039.508,0.0,-2039.508,original_only_positive
+68,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,400.0,0.0,-400.0,original_only_positive
+68,27,Mussels,2021,Aquaculture,Q_tlw,62663.287,62663.287000000004,7.275957614183426e-12,shared_exact
+68,27,Oysters,2021,Aquaculture,Q_tlw,75511.171,75511.171,0.0,shared_exact
+68,27,Red seaweeds,2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+68,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,110.0,0.0,-110.0,original_only_positive
+68,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+68,27,"Shrimps, prawns",2021,Aquaculture,Q_tlw,55.898,55.898,0.0,shared_exact
+68,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,119.27,119.27,0.0,shared_exact
+68,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,3566.005,3566.005,0.0,shared_exact
+68,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1741.305,1741.305,0.0,shared_exact
+68,37,Mussels,2021,Aquaculture,Q_tlw,3658.01,3658.0099999999998,-4.547473508864641e-13,shared_exact
+68,37,Oysters,2021,Aquaculture,Q_tlw,5399.45,5399.45,0.0,shared_exact
+68,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2.08,2.08,0.0,shared_exact
+69,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+69,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+69,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+7,01,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+7,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,32.0,32.0,0.0,shared_exact
+7,01,River eels,2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+7,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2775.0,2775.0,0.0,shared_exact
+70,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+70,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+70,77,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+70,77,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,15.3,15.3,0.0,shared_exact
+70,77,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+70,77,Mussels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+70,77,"Pearls, mother-of-pearl, shells",2021,Aquaculture,Q_tlw,0.0,1381.975,1381.975,species_only_positive
+70,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,160.4,160.4,0.0,shared_exact
+73,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1243.2,1243.1999999999998,-2.2737367544323206e-13,shared_exact
+73,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.4,0.4,0.0,shared_exact
+73,04,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1426.0,1426.0,0.0,shared_exact
+73,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,120.8,120.8,0.0,shared_exact
+73,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+73,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+74,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,12.0,12.0,0.0,shared_exact
+74,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,60.0,60.0,0.0,shared_exact
+75,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+75,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+75,34,Oysters,2021,Aquaculture,Q_tlw,20.0,20.0,0.0,shared_exact
+75,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+79,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,4735.0,4735.0,0.0,shared_exact
+79,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1786.0,1786.0,0.0,shared_exact
+79,05,River eels,2021,Aquaculture,Q_tlw,1160.0,1160.0,0.0,shared_exact
+79,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,10439.0,10439.0,0.0,shared_exact
+79,05,"Shrimps, prawns",2021,Aquaculture,Q_tlw,31.0,31.0,0.0,shared_exact
+79,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,148.0,148.0,0.0,shared_exact
+79,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,26.0,26.0,0.0,shared_exact
+79,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+79,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+79,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+79,27,Mussels,2021,Aquaculture,Q_tlw,14274.0,14274.0,0.0,shared_exact
+79,27,Oysters,2021,Aquaculture,Q_tlw,50.0,50.0,0.0,shared_exact
+79,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+8,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+8,31,Red seaweeds,2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+80,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,356.2,356.2,0.0,shared_exact
+80,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,10.1,10.100000000000001,1.7763568394002505e-15,shared_exact
+80,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,3316.8,3316.8,0.0,shared_exact
+80,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,97.0,0.0,-97.0,original_only_positive
+80,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,135.5,135.5,0.0,shared_exact
+80,37,Mussels,2021,Aquaculture,Q_tlw,40.0,40.0,0.0,shared_exact
+80,37,Oysters,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+81,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,14000.0,14000.0,0.0,shared_exact
+81,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,75350.0,75350.0,0.0,shared_exact
+81,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,30.0,30.0,0.0,shared_exact
+83,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+83,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+83,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+83,71,Red seaweeds,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+84,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1.0,1.0,0.0,shared_exact
+84,05,Frogs and other amphibians,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+84,05,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,62.1,62.1,0.0,shared_exact
+84,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+84,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,280.0,280.0,0.0,shared_exact
+84,05,River eels,2021,Aquaculture,Q_tlw,360.0,360.0,0.0,shared_exact
+84,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,1911.2,1911.2,0.0,shared_exact
+84,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,12.0,12.0,0.0,shared_exact
+84,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.34,0.0,-0.34,original_only_positive
+84,37,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,143.85,143.85,0.0,shared_exact
+84,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,2.4,2.4,0.0,shared_exact
+84,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,304.1,304.1,0.0,shared_exact
+84,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,127104.828,127104.82800000001,1.4551915228366852e-11,shared_exact
+84,37,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,305.0,0.0,-305.0,original_only_positive
+84,37,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,13.82,0.0,-13.82,original_only_positive
+84,37,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,23.286,23.286,0.0,shared_exact
+84,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,172.0,172.0,0.0,shared_exact
+84,37,Mussels,2021,Aquaculture,Q_tlw,13508.3,13508.3,0.0,shared_exact
+84,37,Oysters,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+84,37,River eels,2021,Aquaculture,Q_tlw,23.5,23.5,0.0,shared_exact
+84,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,15.0,15.0,0.0,shared_exact
+84,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+86,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+86,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+86,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.5,0.5,0.0,shared_exact
+86,31,Red seaweeds,2021,Aquaculture,Q_tlw,22.0,22.0,0.0,shared_exact
+87,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2.0,2.0,0.0,shared_exact
+87,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3.0,3.0,0.0,shared_exact
+87,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,45.0,45.0,0.0,shared_exact
+88,06,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+88,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+88,06,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,80.0,0.0,-80.0,original_only_positive
+88,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,7.0,0.0,-7.0,original_only_positive
+88,06,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,85.0,85.0,0.0,shared_exact
+88,71,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+88,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+88,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,10.0,10.0,0.0,shared_exact
+88,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+89,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,5.0,5.0,0.0,shared_exact
+89,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+89,02,Freshwater molluscs,2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+89,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,16.0,0.0,-16.0,original_only_positive
+89,02,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,106.03,106.03,0.0,shared_exact
+89,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,16000.0,16000.0,0.0,shared_exact
+89,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+89,77,Mussels,2021,Aquaculture,Q_tlw,8.0,0.0,-8.0,original_only_positive
+89,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,16472.42,16472.42,0.0,shared_exact
+89,77,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,415.0,0.0,-415.0,original_only_positive
+9,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12.4,12.4,0.0,shared_exact
+9,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+9,03,Frogs and other amphibians,2021,Aquaculture,Q_tlw,8.6,8.6,0.0,shared_exact
+9,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1337.5,1337.5000000000002,2.2737367544323206e-13,shared_exact
+9,03,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,2172.85,2172.85,0.0,shared_exact
+9,03,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+9,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,51.0,51.0,0.0,shared_exact
+9,41,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+9,41,Mussels,2021,Aquaculture,Q_tlw,68.9,68.9,0.0,shared_exact
+9,41,Oysters,2021,Aquaculture,Q_tlw,31.4,31.4,0.0,shared_exact
+9,41,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,4.35,4.35,0.0,shared_exact
+90,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,630.0,630.0,0.0,shared_exact
+90,01,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,520.0,520.0,0.0,shared_exact
+91,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+91,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,17.74,17.740000000000002,3.552713678800501e-15,shared_exact
+91,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,12.09,12.09,0.0,shared_exact
+91,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,9.24,0.0,-9.24,original_only_positive
+91,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,111.9,111.9,0.0,shared_exact
+93,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,70.0,70.0,0.0,shared_exact
+93,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,65.0,65.0,0.0,shared_exact
+93,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1475.0,1475.0,0.0,shared_exact
+95,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12.0,0.0,-12.0,original_only_positive
+95,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+95,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+95,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,29700.0,29700.0,0.0,shared_exact
+95,77,"Shrimps, prawns",2021,Aquaculture,Q_tlw,33567.8,33567.8,0.0,shared_exact
+96,04,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,1452.59,1452.59,0.0,shared_exact
+96,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1404.78,1404.78,0.0,shared_exact
+96,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+96,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,68.63,68.63,0.0,shared_exact
+96,04,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,100.0,100.0,0.0,shared_exact
+96,61,Marine fishes not identified,2021,Aquaculture,Q_tlw,245.7,245.7,0.0,shared_exact
+96,61,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,75.87,75.87,0.0,shared_exact
+96,61,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,144.0,0.0,-144.0,original_only_positive
+96,61,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,9.4,9.4,0.0,shared_exact
+96,61,Oysters,2021,Aquaculture,Q_tlw,651.9,651.9,0.0,shared_exact
+97,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12710.766,12710.766,0.0,shared_exact
+97,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,4991.744,4991.744,0.0,shared_exact
+97,05,River eels,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+97,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,73.5,73.5,0.0,shared_exact
+97,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,70.73,70.73,0.0,shared_exact
+98,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,3720.0,3720.0,0.0,shared_exact
+98,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,61.4,61.400000000000006,7.105427357601002e-15,shared_exact
+98,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,345.0,345.0,0.0,shared_exact
+98,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.66,0.0,-0.66,original_only_positive
+98,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.552,0.0,-0.552,original_only_positive
+98,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.02,0.0,-0.02,original_only_positive
+98,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,17601.8,17601.8,0.0,shared_exact
+98,37,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+98,37,Mussels,2021,Aquaculture,Q_tlw,854.2,854.2,0.0,shared_exact
+98,37,Oysters,2021,Aquaculture,Q_tlw,55.93,55.93,0.0,shared_exact
+98,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,12.779,0.0,-12.779,original_only_positive
+98,37,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.016,0.0,-0.016,original_only_positive
+98,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,4372.0,4372.0,0.0,shared_exact
+99,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,951.0,951.0,0.0,shared_exact
+99,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.6,0.0,-0.6,original_only_positive
+99,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+99,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.0,0.0,0.0,shared_exact
+99,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,337.0,337.0,0.0,shared_exact
+99,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+99,27,Miscellaneous demersal fishes,2021,Aquaculture,Q_tlw,0.0,0.0,0.0,original_only_zero
+99,27,Mussels,2021,Aquaculture,Q_tlw,18.0,18.0,0.0,shared_exact
+99,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,51848.0,51848.0,0.0,shared_exact

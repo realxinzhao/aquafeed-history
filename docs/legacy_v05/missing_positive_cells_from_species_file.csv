@@ -1,0 +1,256 @@
+﻿FAO_area_code,water_area_code,ISSCAAP,year,supply,measure,original_production_t,species_production_t,difference_t,status
+1,04,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+10,06,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+10,06,River eels,2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+10,57,River eels,2021,Aquaculture,Q_tlw,105.0,0.0,-105.0,original_only_positive
+10,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,132.0,0.0,-132.0,original_only_positive
+10,81,Marine fishes not identified,2021,Aquaculture,Q_tlw,85.0,0.0,-85.0,original_only_positive
+10,81,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,3644.581,0.0,-3644.581,original_only_positive
+10,81,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,4.5,0.0,-4.5,original_only_positive
+100,04,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+100,04,"Shrimps, prawns",2021,Aquaculture,Q_tlw,200.0,0.0,-200.0,original_only_positive
+100,51,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,630.0,0.0,-630.0,original_only_positive
+100,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100714.0,0.0,-100714.0,original_only_positive
+101,57,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+101,71,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,8070.0,0.0,-8070.0,original_only_positive
+103,04,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,400.0,0.0,-400.0,original_only_positive
+104,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+104,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1.7,0.0,-1.7,original_only_positive
+104,27,Brown seaweeds,2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+104,27,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,4.0,0.0,-4.0,original_only_positive
+104,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,76.0,0.0,-76.0,original_only_positive
+104,27,Red seaweeds,2021,Aquaculture,Q_tlw,8.5,0.0,-8.5,original_only_positive
+104,27,"Scallops, pectens",2021,Aquaculture,Q_tlw,33.0,0.0,-33.0,original_only_positive
+104,27,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,0.5,0.0,-0.5,original_only_positive
+106,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+106,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+106,37,Freshwater crustaceans,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+106,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1662.0,0.0,-1662.0,original_only_positive
+106,37,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,435.3,0.0,-435.3,original_only_positive
+109,31,"Shrimps, prawns",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+115,71,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,1290.0,0.0,-1290.0,original_only_positive
+117,04,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,5379.0,0.0,-5379.0,original_only_positive
+117,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,2120.0,0.0,-2120.0,original_only_positive
+118,51,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+119,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.058,0.0,-0.058,original_only_positive
+121,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+124,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,80.0,0.0,-80.0,original_only_positive
+126,05,River eels,2021,Aquaculture,Q_tlw,0.21,0.0,-0.21,original_only_positive
+127,71,Red seaweeds,2021,Aquaculture,Q_tlw,0.08,0.0,-0.08,original_only_positive
+129,01,River eels,2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+129,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,89.0,0.0,-89.0,original_only_positive
+131,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,317.312,0.0,-317.312,original_only_positive
+131,71,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,16125.0,0.0,-16125.0,original_only_positive
+138,02,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,1.183,0.0,-1.183,original_only_positive
+138,02,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+138,31,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.48,0.0,-2.48,original_only_positive
+138,31,Marine fishes not identified,2021,Aquaculture,Q_tlw,16.761,0.0,-16.761,original_only_positive
+138,31,Mussels,2021,Aquaculture,Q_tlw,96.348,0.0,-96.348,original_only_positive
+138,77,Marine fishes not identified,2021,Aquaculture,Q_tlw,12.022,0.0,-12.022,original_only_positive
+138,77,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+138,77,Mussels,2021,Aquaculture,Q_tlw,131.001,0.0,-131.001,original_only_positive
+138,77,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.252,0.0,-0.252,original_only_positive
+143,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,820.0,0.0,-820.0,original_only_positive
+143,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+143,34,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+143,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+143,37,Mussels,2021,Aquaculture,Q_tlw,11.78,0.0,-11.78,original_only_positive
+143,37,River eels,2021,Aquaculture,Q_tlw,27.0,0.0,-27.0,original_only_positive
+144,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+147,47,Mussels,2021,Aquaculture,Q_tlw,2.72,0.0,-2.72,original_only_positive
+150,05,Marine fishes not identified,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+150,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+150,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+153,06,Freshwater crustaceans,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+153,71,Oysters,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+153,71,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,39.219,0.0,-39.219,original_only_positive
+154,05,River eels,2021,Aquaculture,Q_tlw,0.065,0.0,-0.065,original_only_positive
+155,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+155,71,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+159,01,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+159,34,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,1130.0,0.0,-1130.0,original_only_positive
+166,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.048,0.0,-0.048,original_only_positive
+167,05,River eels,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+167,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+169,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+170,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.138,0.0,-0.138,original_only_positive
+171,71,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,23.415,0.0,-23.415,original_only_positive
+174,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,4.0,0.0,-4.0,original_only_positive
+174,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,3557.93,0.0,-3557.93,original_only_positive
+174,27,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,1.47,0.0,-1.47,original_only_positive
+174,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,250.0,0.0,-250.0,original_only_positive
+174,27,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,40.0,0.0,-40.0,original_only_positive
+18,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+180,71,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,6.3,0.0,-6.3,original_only_positive
+180,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+182,51,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+182,51,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+183,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.044,0.0,-0.044,original_only_positive
+183,05,River eels,2021,Aquaculture,Q_tlw,83.0,0.0,-83.0,original_only_positive
+183,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+183,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.65,0.0,-0.65,original_only_positive
+183,37,Mussels,2021,Aquaculture,Q_tlw,24.64,0.0,-24.64,original_only_positive
+183,37,Oysters,2021,Aquaculture,Q_tlw,0.13,0.0,-0.13,original_only_positive
+185,27,Brown seaweeds,2021,Aquaculture,Q_tlw,13.0,0.0,-13.0,original_only_positive
+194,51,Sea-urchins and other echinoderms,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+198,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,70.4,0.0,-70.4,original_only_positive
+198,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+199,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,1.05,0.0,-1.05,original_only_positive
+200,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+202,47,Red seaweeds,2021,Aquaculture,Q_tlw,450.0,0.0,-450.0,original_only_positive
+202,47,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,7.02,0.0,-7.02,original_only_positive
+202,47,Sea-squirts and other tunicates,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+203,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5.4,0.0,-5.4,original_only_positive
+203,05,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,0.055,0.0,-0.055,original_only_positive
+203,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.915,0.0,-1.915,original_only_positive
+203,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,1.762,0.0,-1.762,original_only_positive
+203,27,Brown seaweeds,2021,Aquaculture,Q_tlw,0.135,0.0,-0.135,original_only_positive
+203,27,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,19.0,0.0,-19.0,original_only_positive
+203,27,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.28,0.0,-0.28,original_only_positive
+203,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,0.05,0.0,-0.05,original_only_positive
+203,27,Red seaweeds,2021,Aquaculture,Q_tlw,0.128,0.0,-0.128,original_only_positive
+203,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,11.606,0.0,-11.606,original_only_positive
+203,27,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+203,34,Green seaweeds,2021,Aquaculture,Q_tlw,1.089,0.0,-1.089,original_only_positive
+203,34,Miscellaneous aquatic plants,2021,Aquaculture,Q_tlw,0.375,0.0,-0.375,original_only_positive
+203,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,7.5,0.0,-7.5,original_only_positive
+203,37,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.048,0.0,-0.048,original_only_positive
+203,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,19.441,0.0,-19.441,original_only_positive
+203,37,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.05,0.0,-0.05,original_only_positive
+203,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,3.504,0.0,-3.504,original_only_positive
+209,01,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+209,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+209,01,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+21,41,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,6.0,0.0,-6.0,original_only_positive
+210,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+211,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,60.0,0.0,-60.0,original_only_positive
+214,04,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+214,04,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+216,71,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,133.0,0.0,-133.0,original_only_positive
+219,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.03,0.0,-0.03,original_only_positive
+219,77,Red seaweeds,2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+221,51,"Tunas, bonitos, billfishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+222,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+222,37,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+222,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,29.0,0.0,-29.0,original_only_positive
+222,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1.2,0.0,-1.2,original_only_positive
+223,04,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+223,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1442.0,0.0,-1442.0,original_only_positive
+226,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+228,07,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,238790.0,0.0,-238790.0,original_only_positive
+228,07,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+228,07,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,5724.0,0.0,-5724.0,original_only_positive
+228,07,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,74.0,0.0,-74.0,original_only_positive
+228,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,311.0,0.0,-311.0,original_only_positive
+228,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,71.0,0.0,-71.0,original_only_positive
+228,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+228,37,Mussels,2021,Aquaculture,Q_tlw,1370.0,0.0,-1370.0,original_only_positive
+228,61,Brown seaweeds,2021,Aquaculture,Q_tlw,9742.0,0.0,-9742.0,original_only_positive
+228,61,Mussels,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+228,61,"Scallops, pectens",2021,Aquaculture,Q_tlw,153.0,0.0,-153.0,original_only_positive
+229,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+229,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,0.7,0.0,-0.7,original_only_positive
+229,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+229,27,"Shrimps, prawns",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+23,31,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,31.0,0.0,-31.0,original_only_positive
+230,05,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+230,05,River eels,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+230,37,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,900.0,0.0,-900.0,original_only_positive
+230,37,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+230,37,Mussels,2021,Aquaculture,Q_tlw,70.0,0.0,-70.0,original_only_positive
+230,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,0.2,0.0,-0.2,original_only_positive
+231,21,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,45.0,0.0,-45.0,original_only_positive
+231,67,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,187.0,0.0,-187.0,original_only_positive
+231,67,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+234,03,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+234,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,0.1,0.0,-0.1,original_only_positive
+234,03,Frogs and other amphibians,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+234,03,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,1.78,0.0,-1.78,original_only_positive
+236,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+236,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,0.68,0.0,-0.68,original_only_positive
+244,77,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.014,0.0,-0.014,original_only_positive
+244,77,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+244,77,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,2.781,0.0,-2.781,original_only_positive
+249,51,"Shrimps, prawns",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+25,71,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+251,01,Freshwater crustaceans,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+255,05,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+255,05,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+255,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+255,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,25.0,0.0,-25.0,original_only_positive
+259,27,"Abalones, winkles, conchs",2021,Aquaculture,Q_tlw,0.13,0.0,-0.13,original_only_positive
+26,71,Marine fishes not identified,2021,Aquaculture,Q_tlw,125.0,0.0,-125.0,original_only_positive
+27,05,Frogs and other amphibians,2021,Aquaculture,Q_tlw,0.12,0.0,-0.12,original_only_positive
+27,05,Green seaweeds,2021,Aquaculture,Q_tlw,1.42,0.0,-1.42,original_only_positive
+27,05,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+27,05,River eels,2021,Aquaculture,Q_tlw,35.0,0.0,-35.0,original_only_positive
+27,37,Oysters,2021,Aquaculture,Q_tlw,2.57,0.0,-2.57,original_only_positive
+270,51,Marine fishes not identified,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+270,51,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+273,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+273,37,River eels,2021,Aquaculture,Q_tlw,9.0,0.0,-9.0,original_only_positive
+28,57,Miscellaneous aquatic invertebrates,2021,Aquaculture,Q_tlw,15605.0,0.0,-15605.0,original_only_positive
+28,57,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,14.83,0.0,-14.83,original_only_positive
+28,57,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,800.0,0.0,-800.0,original_only_positive
+28,57,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,800.0,0.0,-800.0,original_only_positive
+286,02,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.5,0.0,-0.5,original_only_positive
+3,37,"Shrimps, prawns",2021,Aquaculture,Q_tlw,8.0,0.0,-8.0,original_only_positive
+33,02,"Shrimps, prawns",2021,Aquaculture,Q_tlw,14.0,0.0,-14.0,original_only_positive
+33,21,Marine fishes not identified,2021,Aquaculture,Q_tlw,10.0,0.0,-10.0,original_only_positive
+38,04,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,225.19,0.0,-225.19,original_only_positive
+38,04,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+38,57,"Lobsters, spiny-rock lobsters",2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+38,57,Mussels,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+38,57,Oysters,2021,Aquaculture,Q_tlw,13.0,0.0,-13.0,original_only_positive
+4,01,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,103.39,0.0,-103.39,original_only_positive
+40,03,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,12920.0,0.0,-12920.0,original_only_positive
+40,87,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+40,87,Miscellaneous demersal fishes,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+41,04,"Crabs, sea-spiders",2021,Aquaculture,Q_tlw,5154.0,0.0,-5154.0,original_only_positive
+44,03,"Shrimps, prawns",2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+44,31,Marine fishes not identified,2021,Aquaculture,Q_tlw,3.0,0.0,-3.0,original_only_positive
+44,31,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,150.0,0.0,-150.0,original_only_positive
+44,31,Oysters,2021,Aquaculture,Q_tlw,15.0,0.0,-15.0,original_only_positive
+44,87,"Shrimps, prawns",2021,Aquaculture,Q_tlw,1000.0,0.0,-1000.0,original_only_positive
+47,77,Green seaweeds,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+54,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,0.3,0.0,-0.3,original_only_positive
+54,05,Miscellaneous pelagic fishes,2021,Aquaculture,Q_tlw,0.06,0.0,-0.06,original_only_positive
+54,27,"Cods, hakes, haddocks",2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+58,03,Freshwater crustaceans,2021,Aquaculture,Q_tlw,300.0,0.0,-300.0,original_only_positive
+58,87,Marine fishes not identified,2021,Aquaculture,Q_tlw,5.0,0.0,-5.0,original_only_positive
+59,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,1.0,0.0,-1.0,original_only_positive
+63,05,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,29.8,0.0,-29.8,original_only_positive
+68,05,Green seaweeds,2021,Aquaculture,Q_tlw,6.22,0.0,-6.22,original_only_positive
+68,27,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,655.8,0.0,-655.8,original_only_positive
+68,27,Marine fishes not identified,2021,Aquaculture,Q_tlw,1752.0,0.0,-1752.0,original_only_positive
+68,27,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2039.508,0.0,-2039.508,original_only_positive
+68,27,Miscellaneous marine molluscs,2021,Aquaculture,Q_tlw,400.0,0.0,-400.0,original_only_positive
+68,27,Red seaweeds,2021,Aquaculture,Q_tlw,0.4,0.0,-0.4,original_only_positive
+68,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,110.0,0.0,-110.0,original_only_positive
+73,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+73,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,100.0,0.0,-100.0,original_only_positive
+75,34,"Shrimps, prawns",2021,Aquaculture,Q_tlw,50.0,0.0,-50.0,original_only_positive
+79,27,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+80,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,97.0,0.0,-97.0,original_only_positive
+80,37,Oysters,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+84,05,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,2.0,0.0,-2.0,original_only_positive
+84,37,"Clams, cockles, arkshells",2021,Aquaculture,Q_tlw,0.34,0.0,-0.34,original_only_positive
+84,37,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,305.0,0.0,-305.0,original_only_positive
+84,37,Miscellaneous marine crustaceans,2021,Aquaculture,Q_tlw,13.82,0.0,-13.82,original_only_positive
+88,06,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,80.0,0.0,-80.0,original_only_positive
+88,06,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,7.0,0.0,-7.0,original_only_positive
+89,02,Freshwater crustaceans,2021,Aquaculture,Q_tlw,20.0,0.0,-20.0,original_only_positive
+89,02,Freshwater molluscs,2021,Aquaculture,Q_tlw,11.0,0.0,-11.0,original_only_positive
+89,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,16.0,0.0,-16.0,original_only_positive
+89,77,Mussels,2021,Aquaculture,Q_tlw,8.0,0.0,-8.0,original_only_positive
+89,77,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,415.0,0.0,-415.0,original_only_positive
+91,31,Miscellaneous coastal fishes,2021,Aquaculture,Q_tlw,9.24,0.0,-9.24,original_only_positive
+95,02,"Carps, barbels and other cyprinids",2021,Aquaculture,Q_tlw,12.0,0.0,-12.0,original_only_positive
+95,02,Miscellaneous freshwater fishes,2021,Aquaculture,Q_tlw,30.0,0.0,-30.0,original_only_positive
+96,61,Miscellaneous diadromous fishes,2021,Aquaculture,Q_tlw,144.0,0.0,-144.0,original_only_positive
+98,05,"Sturgeons, paddlefishes",2021,Aquaculture,Q_tlw,0.66,0.0,-0.66,original_only_positive
+98,37,"Flounders, halibuts, soles",2021,Aquaculture,Q_tlw,0.552,0.0,-0.552,original_only_positive
+98,37,Marine fishes not identified,2021,Aquaculture,Q_tlw,0.02,0.0,-0.02,original_only_positive
+98,37,"Salmons, trouts, smelts",2021,Aquaculture,Q_tlw,12.779,0.0,-12.779,original_only_positive
+98,37,"Scallops, pectens",2021,Aquaculture,Q_tlw,0.016,0.0,-0.016,original_only_positive
+99,05,Tilapias and other cichlids,2021,Aquaculture,Q_tlw,0.6,0.0,-0.6,original_only_positive

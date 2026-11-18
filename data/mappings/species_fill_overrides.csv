@@ -1,0 +1,3 @@
+species_code,source_feed_group,source_id,source_location,assumption_id,note
+SVC,NONFED,Gephart2021,"SI Table S5 PDF p.23",F12,Zero commercial grow-out feed proxy for silver carp; excludes pond fertilization and any special feeding systems
+BIC,NONFED,Gephart2021,"SI Table S5 PDF p.23",F12,Zero commercial grow-out feed proxy for bighead carp; excludes pond fertilization and any special feeding systems

@@ -1,0 +1,12 @@
+source_id,source_feed_group,year,commercial_feed_share,efcr,source_url,source_location,transcription_status
+Naylor2021,Chinese fed carps,2017,0.57,1.7,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Tilapia,2017,0.92,1.7,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Marine shrimp,2017,0.86,1.6,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Catfishes,2017,0.81,1.3,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Marine fishes,2017,0.80,1.7,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Salmon,2017,1.00,1.3,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Freshwater crustaceans,2017,0.60,1.8,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Miscellaneous freshwater fish,2017,0.43,1.7,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Original ODF includes other diadromous AND freshwater fish; transfer requires group proxy
+Naylor2021,Milkfish,2017,0.55,1.7,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,Trout,2017,1.00,1.3,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey
+Naylor2021,River eels,2017,1.00,1.5,https://doi.org/10.1038/s41586-021-03308-6,"Table 1; article p.555; PDF p.5",Verified against screenshot; table coefficient; not a new independent survey

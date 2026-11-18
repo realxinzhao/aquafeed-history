@@ -1,0 +1,13 @@
+source_feed_group,reference_profile,recent_profile,mapping_status
+Chinese fed carps,herbivorous_omnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Marine shrimp,penaeid_shrimp,Marine shrimp,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Tilapia,herbivorous_omnivorous,Tilapia,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Catfishes,herbivorous_omnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Miscellaneous freshwater fish,marine_carnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Freshwater crustaceans,penaeid_shrimp,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Marine fishes,marine_carnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Salmon,marine_carnivorous,Salmon,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Milkfish,herbivorous_omnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Trout,marine_carnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+River eels,marine_carnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe
+Miscellaneous diadromous fish and sturgeons,marine_carnivorous,,Explicit broad-profile assumption retained from v0.4; not a measured species-year recipe

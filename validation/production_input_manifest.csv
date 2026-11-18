@@ -1,0 +1,4 @@
+project_path,role,original_upload_filename,bytes,md5
+data/raw/production/history_1973_2022_species.csv,DEFAULT historical species production,AquacutureProductionAllYears_bySpecies_bycountry_tonnes_updated1.csv,13825929,dbb54e5e1e79d5d0d32326539a0cb33c
+data/raw/production/isscaap_2021_comparison.csv,earlier comparison/reference input; not added to history,,279593,fa34e68a0fed75668c0d2f3637981f21
+data/raw/production/species_2021.csv,earlier comparison/reference input; not added to history,,436956,1fde1c921f55966be9090f606a4d7b2d

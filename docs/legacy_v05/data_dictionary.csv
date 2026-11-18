@@ -1,0 +1,20 @@
+﻿field,unit,definition,status
+production_t,t live weight,Supplied country x water area x species x year quantity.,"Input, not estimated"
+commercial_feed_share,fraction of output,Share of source-group production relying on commercial feed; NOT general fed share.,Selected/interpolated published estimate
+efcr,t commercial feed / t live biomass gain,Source-group economic FCR; no claim that all sources have identical moisture basis.,Selected/interpolated published estimate
+commercial_feed_per_t_output,t feed / t live output,commercial_feed_share * efcr; coefficient over total source-group production.,Derived
+fishmeal_share,t ingredient / t feed,Fishmeal including modeled whole-fish and trimming meal.,Published estimate / interpolation
+fishoil_proxy_share,t ingredient / t feed,FO amount in selected source; endpoint2017 reports wild-fish oil only.,Proxy; definition warning applies
+ReductionFish_proxy_share,t processed FMFO / t feed,fishmeal_share + fishoil_proxy_share. NOT wet reduction fish.,Derived proxy
+FeedCrops_reference_share,t processed crop ingredients / t feed,Nonmarine remainder times generic2015 conditional crop ratio.,Synthetic composition scenario
+FeedCrops_recent_share,t processed crop ingredients / t feed,Alternative2021 conditional ratios for3groups; generic for remaining groups.,Synthetic sensitivity
+OtherFeed_reference_share,t other ingredients / t feed,Terrestrial animals + additives + unallocated; not assigned to crops.,Derived residual allocation
+early_backcast,0/1,1 means year1975-1994 uses held1995 values in complete grid.,Assumption flag
+feed_year_low / feed_year_high,year,"Bracketing data years, not publication years.",Provenance
+complete_scope_feed_t,t commercial feed,Blank if any positive production in that aggregate lacks a supported feeding coefficient.,Never turn unknown into zero
+feed_subtotal_per_t_total_output,t feed / t output,"Known feed subtotal / all core production in aggregate, with unestimated flags. Not stand-alone fed-technology coefficient.",Partial aggregate coefficient
+fishoil_trimmings_t_known,t processed oil,Blank when source does not identify trimming oil; national override supplies it.,Missing means unknown
+scope_coverage_fraction,fraction,(Modeled fed-group production + assumed nonfed production) / core production. NOT fraction commercially fed.,Derived coverage
+source_feed_group,text,Literature group resolved from static species crosswalk.,Mapping; historical new codes need review
+FAO_area_code,character code,"FAO reporting country/area code; keep as character, not ISO.",No GCAM32 region mapping assumed
+water_area_code,character code,FAO water/fishing-area code; inland leading zeros preserved.,Input

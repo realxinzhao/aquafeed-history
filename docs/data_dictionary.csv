@@ -1,0 +1,62 @@
+column,units,definition
+species_code,code,"FAO species/item key; can represent species, genus or nei category"
+species_name,text,Resolved display name where available; not a join key
+ISSCAAP,text,User ISSCAAP group; used for aggregation mapping
+year,year,1973-2023; not proof of an observation in that year
+efcr,t/t,Total commercial feed per tonne commercially fed live output
+commercial_feed_share,fraction,Share of total species/group production using commercial feed; not ingredient share
+commercial_feed_per_t_output,t/t,"p * efcr, per tonne TOTAL live output"
+FeedCrops_share,fraction,Ingredient mass share in selected estimated recipe
+efcr_FeedCrops,t/t,"efcr * ingredient share, per tonne commercially fed output"
+FeedCrops_per_t_output,t/t,"commercial_feed_share * efcr * ingredient share, per tonne TOTAL output"
+fishmeal_share,fraction,Ingredient mass share in selected estimated recipe
+efcr_fishmeal,t/t,"efcr * ingredient share, per tonne commercially fed output"
+fishmeal_per_t_output,t/t,"commercial_feed_share * efcr * ingredient share, per tonne TOTAL output"
+fishoil_share,fraction,Ingredient mass share in selected estimated recipe
+efcr_fishoil,t/t,"efcr * ingredient share, per tonne commercially fed output"
+fishoil_per_t_output,t/t,"commercial_feed_share * efcr * ingredient share, per tonne TOTAL output"
+OtherFeed_share,fraction,Ingredient mass share in selected estimated recipe
+efcr_OtherFeed,t/t,"efcr * ingredient share, per tonne commercially fed output"
+OtherFeed_per_t_output,t/t,"commercial_feed_share * efcr * ingredient share, per tonne TOTAL output"
+source_feed_group,text,Literature group or NONFED / UNESTIMATED / OUT_OF_SCOPE
+coefficient_id,key,Group-year sidecar key for positive estimates; zero convention resolves in species overrides and assumptions register
+mapping_status,text,Crosswalk rule and proxy flags
+coefficient_status,text,Estimated versus nonfed/unknown/excluded
+feed_fill_method,text,p/eFCR selection or fill method
+fishmeal_fill_method,text,Marine-meal interpolation/hold/proxy flag
+fishoil_fill_method,text,Oil interpolation/proxy/hold method
+nonmarine_fill_method,text,Constructed nonmarine allocation method
+early_backcast,0/1,1 for held pre1995 coefficients; NA for categories without group-year estimates
+fishoil_scope,text,Total-as-reported versus company transfer or incomplete wild-only proxy
+coverage_layer,text,"Original Tacon core, original nonfed, new positive coverage extension, or new assumed zero"
+coverage_assumption_id,key,Join to coverage_assumption_groups.csv or zero convention in assumptions.csv
+coverage_confidence,text,Evidence/assumption quality flag; populated does not imply observed
+original_source_feed_group,text,Preserved pre-extension mapping
+output_basis,text,Reported live weight or pearl/shell product; product denominator separated
+species_name_original,text,Preserved input/crosswalk display label
+identity_source_id,key,Source for an explicitly documented identity correction
+identity_note,text,Explanation of species-code/display-name conflict
+complete_all_external_feed_estimate,boolean,FALSE: direct/farm-made/hatchery feed accounting not complete
+commercial_feed_per_t_output_low,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+commercial_feed_per_t_output_high,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+FeedCrops_per_t_output_low,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+FeedCrops_per_t_output_high,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+fishmeal_per_t_output_low,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+fishmeal_per_t_output_high,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+fishoil_per_t_output_low,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+fishoil_per_t_output_high,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+OtherFeed_per_t_output_low,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+OtherFeed_per_t_output_high,t/t,Sensitivity on new combined effective intensity; original coefficients fixed; not confidence interval
+tacon_comparable_feed_t,t,Original 12-group commercial subtotal; consistent comparison to Tacon scope
+coverage_extension_feed_t,t,Additional positive commercial-feed demand from new proxies
+commercial_feed_low_t,t,Low-intensity case for additions; original feed fixed
+commercial_feed_high_t,t,High-intensity case for additions; original feed fixed
+assumption_covered_output_t,t,"Production receiving a new assumed coefficient, including newly assumed zero"
+assumed_zero_output_t,t,Production receiving one of the six newly assumed-zero commercial-grow-out conventions
+non_live_product_output_t,t,Pearl/shell product tonnes reported in input
+live_output_t,t,Production less separately flagged pearl/shell products
+complete_feed_estimate,boolean,Every supplied positive-production record has a numeric commercial coefficient under chosen policy; not comprehensive feed or evidence quality
+reported_fcr,source-specific,Raw literature FCR in its own system/stage/basis; not necessarily commercial eFCR
+reported_fcr_basis,text,Feed type/life-stage/context of raw source FCR
+evidence_supports,text,Claim that source actually supports
+does_not_establish,text,Global assumptions not measured in that source
