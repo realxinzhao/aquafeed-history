@@ -1,0 +1,67 @@
+site_name: Aquafeed history
+site_description: Documented aquaculture feed coefficients for GCAM — sources, assumptions, replication and validation.
+site_url: https://realxinzhao.github.io/aquafeed-history/
+repo_url: https://github.com/realxinzhao/aquafeed-history
+repo_name: realxinzhao/aquafeed-history
+edit_uri: ''
+docs_dir: _site_docs
+site_dir: dist
+use_directory_urls: true
+
+theme:
+  name: material
+  variant: modern
+  language: en
+  font: false
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Overview: index.md
+  - Get started: quickstart.md
+  - Methods and sources: methods.md
+  - Coverage assumptions: coverage.md
+  - Source register: sources.md
+  - Source audit: source-audit.md
+  - Validation: validation.md
+  - Publication priorities: roadmap.md
+  - Project maintenance: maintenance.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+
+validation:
+  invalid_links: true
+  invalid_link_anchors: true

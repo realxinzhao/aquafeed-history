@@ -1,5 +1,8 @@
 # Aquafeed history: coefficients for GCAM
 
+**[Read the documentation website](https://realxinzhao.github.io/aquafeed-history/)**
+— getting started, methods, source register, assumptions and validation.
+
 A reproducible R project estimating commercial aquafeed ingredients per tonne of
 aquaculture output. The default dataset covers **731 species/item codes × 1973–2023
 = 37,281 rows**, with one coefficient per species and year and no regional dimension.

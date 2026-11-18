@@ -28,3 +28,9 @@ renv/cache/
 # Platform files
 .DS_Store
 Thumbs.db
+# Generated documentation and local preview configuration
+/_site_docs/
+/dist/
+/.cache/
+/.openai/
+/website/__pycache__/
