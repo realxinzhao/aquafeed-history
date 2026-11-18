@@ -54,8 +54,10 @@ if(isTRUE(cli_options$help)) {
     if(isTRUE(config$run_demand_checks)) af_path(.af_root,config$production_file) else character(),
     list(coverage_policy=af_coverage_policy(config),early_policy=config$early_policy,year_start=config$year_start,year_end=config$year_end,
       use_recent_fishoil=config$use_recent_fishoil,use_recent_nonmarine=config$use_recent_nonmarine,
+      gcamdata_formats=names(coefficients$gcamdata_files),
       ran_demand_checks=config$run_demand_checks),
     extra_files=c(file.path(.af_root,"config/default.R"),file.path(.af_root,"data/raw/benchmarks/commercial_feed_benchmarks.csv"),
                   if(isTRUE(config$run_demand_checks)) af_path(.af_root,config$species_reference_file) else character()))
   message("Main output: ",file.path(config$output_dir,"02_coefficients/aquaculture_feed_coefficients_species_year.csv"))
+  for(path in coefficients$gcamdata_files) message("GCAM input: ",path)
 }

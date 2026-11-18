@@ -13,5 +13,6 @@ config <- list(
   run_global_mix_sensitivity = FALSE, # Not applicable to actual species-resolved history.
   run_2021_reference_check = TRUE, # Separate check only; never used as historical species weights.
   output_dir = "outputs",
+  gcamdata_formats = c("csv", "csv.gz"), # Compact six-column inputs with GCAM comment headers.
   run_tests = TRUE
 )
