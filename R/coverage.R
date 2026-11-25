@@ -6,7 +6,7 @@ af_coverage_policy <- function(config) {
   p
 }
 
-af_species_mapping <- function(root, config = list()) {
+af_species_mapping <- function(root, config = list(), input = NULL) {
   x <- af_species_mapping_core(root)
   x$original_source_feed_group <- x$source_feed_group
   x$coverage_layer <- ifelse(x$source_feed_group == "NONFED", "original_nonfed", "original_tacon_core")
@@ -37,7 +37,112 @@ af_species_mapping <- function(root, config = list()) {
     resolved <- nzchar(z$resolved_name_override)
     x$species_name_resolved[k[resolved]] <- z$resolved_name_override[resolved]
   }
+  if (!is.null(input)) {
+    x <- af_extend_species_mapping(root, x, input,
+                                   allow_isscaap_proxy = af_coverage_policy(config) == "expanded")
+  }
   x
+}
+
+af_extend_species_mapping <- function(root, x, input, allow_isscaap_proxy = TRUE) {
+  if (!"species_code" %in% names(input)) return(x)
+  codes <- sort(setdiff(unique(trimws(input$species_code)), x$species_code))
+  if (!length(codes)) return(x)
+
+  group_map <- af_read_csv(file.path(root, "data/mappings/GCAM_group_mapping.csv"))
+  rows <- lapply(codes, function(code) {
+    d <- input[trimws(input$species_code) == code, , drop = FALSE]
+    isscaap <- unique(trimws(d$ISSCAAP))
+    af_assert(length(isscaap) == 1L && nzchar(isscaap),
+              paste("New species code has inconsistent ISSCAAP:", code))
+    candidates <- x[x$ISSCAAP == isscaap, , drop = FALSE]
+    feed_groups <- unique(candidates$source_feed_group[
+      !is.na(candidates$source_feed_group) & nzchar(candidates$source_feed_group)
+    ])
+    gmap <- group_map[group_map$ISSCAAP == isscaap, , drop = FALSE]
+    unique_group <- allow_isscaap_proxy && length(feed_groups) == 1L
+    feed_group <- if (unique_group) feed_groups[1] else "UNESTIMATED"
+    subsector <- if (nrow(gmap) == 1L) gmap$GCAM_subsector[1] else "OUT_OF_SCOPE"
+    commodity <- if (nrow(gmap) == 1L) gmap$GCAM_commodity[1] else "OUT_OF_SCOPE"
+    available_names <- unique(trimws(d$species_name[
+      !is.na(d$species_name) & nzchar(trimws(d$species_name))
+    ]))
+    display_name <- if (length(available_names) == 1L) available_names else ""
+    year_2021 <- d$year == "2021"
+    production_2021 <- sum(af_num(d$value[year_2021], "2021 production", allow_missing = TRUE),
+                           na.rm = TRUE)
+
+    r <- x[1, , drop = FALSE]
+    for (k in names(r)) r[[k]] <- if (is.numeric(r[[k]])) NA_real_ else ""
+    r$species_code <- code
+    r$species_name_original <- display_name
+    r$species_name_resolved <- display_name
+    r$ISSCAAP <- isscaap
+    r$GCAM_subsector <- subsector
+    r$GCAM_commodity <- commodity
+    r$source_feed_group <- feed_group
+    r$needs_taxonomic_review <- "TRUE"
+    r$input_production_t <- format(production_2021, digits = 15, scientific = FALSE, trim = TRUE)
+    r$original_source_feed_group <- "UNESTIMATED"
+    r$identity_note <- "Name and ISSCAAP copied from production input; identity not independently reviewed."
+    r$identity_notes <- r$identity_note
+
+    if (!unique_group || feed_group %in% c("UNESTIMATED", "OUT_OF_SCOPE")) {
+      r$mapping_status <- if (!allow_isscaap_proxy) {
+        "AUTO: original coverage policy; new code retained as UNESTIMATED"
+      } else if (unique_group) {
+        "AUTO: unique ISSCAAP assignment is unestimated"
+      } else {
+        "AUTO: conflicting or absent ISSCAAP assignments; retained as UNESTIMATED"
+      }
+      r$mapping_notes <- paste0(
+        "Automatic mapping from production input. Existing exact-ISSCAAP feed-group candidates: ",
+        if (length(feed_groups)) paste(feed_groups, collapse = "; ") else "none",
+        ". No zero-feed assumption applied."
+      )
+      r$coverage_layer <- "unresolved_new_species"
+      r$coverage_assumption_id <- ""
+      r$coverage_source_ids <- ""
+      r$coverage_confidence <- "low"
+    } else if (feed_group == "NONFED") {
+      r$mapping_status <- "AUTO: unique ISSCAAP assignment; nonfed assumption"
+      r$mapping_notes <- paste0(
+        "Automatic exact-ISSCAAP assignment to NONFED; commercial-feed coefficient is zero by this explicit proxy."
+      )
+      r$coverage_layer <- "coverage_assumed_zero"
+      r$coverage_assumption_id <- "AUTO_ISSCAAP_NONFED"
+      r$coverage_source_ids <- ""
+      r$coverage_confidence <- "low"
+    } else {
+      inherited_ids <- unique(candidates$coverage_assumption_id[
+        candidates$source_feed_group == feed_group &
+          !is.na(candidates$coverage_assumption_id) & nzchar(candidates$coverage_assumption_id)
+      ])
+      inherited_sources <- unique(candidates$coverage_source_ids[
+        candidates$source_feed_group == feed_group &
+          !is.na(candidates$coverage_source_ids) & nzchar(candidates$coverage_source_ids)
+      ])
+      r$mapping_status <- "AUTO: unique ISSCAAP source-feed-group proxy"
+      r$mapping_notes <- paste0(
+        "Automatic exact-ISSCAAP assignment to ", feed_group,
+        "; new species treated as a coverage extension, not part of the Tacon-comparable core."
+      )
+      r$coverage_layer <- "coverage_extension"
+      r$coverage_assumption_id <- paste(c("AUTO_ISSCAAP", inherited_ids), collapse = ";")
+      r$coverage_source_ids <- paste(inherited_sources, collapse = ";")
+      r$coverage_confidence <- "low"
+    }
+    r$output_basis <- if (isscaap == "Pearls, mother-of-pearl, shells") {
+      "pearl_shell_product"
+    } else {
+      "reported_live_weight"
+    }
+    r
+  })
+  out <- rbind(x, af_bind(rows))
+  rownames(out) <- NULL
+  af_unique(out, "species_code", "extended species mapping")
+  out
 }
 
 af_extend_coverage_groups <- function(root, g, baseline, config) {
@@ -150,15 +255,34 @@ af_append_coverage_evidence <- function(root, result, out) {
 }
 
 # Readable per-code application audit, regenerated from the actual run.
-af_coverage_mapping_audit <- function(root, co, allocated) {
+af_coverage_mapping_audit <- function(root, co, allocated, years = integer()) {
   ov <- af_read_csv(file.path(root,"data/mappings/coverage_species_overrides.csv"))
+  auto <- co$mapping[grepl("^AUTO:", co$mapping$mapping_status), , drop = FALSE]
+  if (nrow(auto)) {
+    auto_rows <- data.frame(
+      species_code = auto$species_code,
+      species_name_original = auto$species_name_original,
+      ISSCAAP = auto$ISSCAAP,
+      previous_source_feed_group = auto$original_source_feed_group,
+      source_feed_group = auto$source_feed_group,
+      assumption_id = auto$coverage_assumption_id,
+      source_ids = auto$coverage_source_ids,
+      mapping_rationale = auto$mapping_notes,
+      confidence = auto$coverage_confidence,
+      output_basis = auto$output_basis,
+      resolved_name_override = "",
+      identity_source_id = auto$identity_source_id,
+      identity_note = auto$identity_note,
+      stringsAsFactors = FALSE
+    )
+    ov <- rbind(ov, auto_rows)
+  }
   k <- match(ov$species_code,co$mapping$species_code)
   ov$species_name_resolved <- co$mapping$species_name_resolved[k]
   ov$coverage_layer <- co$mapping$coverage_layer[k]
-  z <- allocated[allocated$coverage_layer %in% c("coverage_extension","coverage_assumed_zero"), ]
-  years <- intersect(c(2021L,2022L),sort(unique(allocated$year)))
+  years <- intersect(as.integer(years),sort(unique(allocated$year)))
   for(yr in years) {
-    tab <- af_aggregate_demand(z[z$year==yr, ],"species_code")
+    tab <- af_aggregate_demand(allocated[allocated$year==yr, ],"species_code")
     j <- match(ov$species_code,tab$species_code)
     for(f in c("production_t","commercial_feed_t","commercial_feed_low_t","commercial_feed_high_t")) {
       v <- tab[[f]][j];v[is.na(j)] <- 0

@@ -26,17 +26,22 @@ documented assumptions.
 
 | Dimension | Default coverage |
 |---|---|
-| Species/items | 731 FAO codes |
-| Coefficient years | 1973–2023; 37,281 species-year rows |
+| Species/items | 778 codes in the applied mapping |
+| Coefficient years | 1973–2024; 40,456 species-year rows |
 | Feed ingredients | FeedCrops, fishmeal, fish oil and OtherFeed |
 | Geography | Common species-year coefficients; no regional coefficient dimension |
 | Mass basis | Ingredient/feed mass as reported; no common moisture normalization |
-| Production application | Supplied species histories for 1973–2022 |
+| Production application | FAO FISHSTAT data processed by gcamfaostat; species histories for 1973–2024 |
 
 Most species inherit coefficients from broader feeding groups. The annual table
 combines reported estimates, interpolation, transfers and analyst assumptions; its
 resolution does not imply an independent measurement for every species and year.
 The [methods guide](methods.md) explains these distinctions.
+
+The 2024 coefficient vector holds the finalized 2023 coefficients forward. This is an
+explicit modeling assumption, not a 2024 literature estimate. New production codes
+inherit a feed group only when the exact ISSCAAP group has a unanimous assignment;
+conflicting cases remain unestimated.
 
 ## Generate the GCAM inputs
 

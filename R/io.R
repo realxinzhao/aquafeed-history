@@ -6,9 +6,35 @@ af_assert <- function(condition, message) {
 
 af_read_csv <- function(path, required = character()) {
   af_assert(file.exists(path), paste("Missing file:", path))
-  x <- utils::read.csv(path, colClasses = "character", check.names = FALSE,
-                       stringsAsFactors = FALSE, na.strings = character(),
-                       row.names = NULL, fileEncoding = "UTF-8-BOM")
+  compressed <- grepl("[.]gz$", path, ignore.case = TRUE)
+  open_input <- function() {
+    if (compressed) gzfile(path, open = "rt") else
+      file(path, open = "rt", encoding = "UTF-8-BOM")
+  }
+  probe <- open_input()
+  probe_closed <- FALSE
+  on.exit(if (!probe_closed) close(probe), add = TRUE)
+  skip <- 0L
+  repeat {
+    line <- readLines(probe, n = 1L, warn = FALSE)
+    if (!length(line)) break
+    line <- trimws(sub("^\\ufeff", "", line))
+    if (!nzchar(line) || startsWith(line, "#")) skip <- skip + 1L else break
+  }
+  close(probe)
+  probe_closed <- TRUE
+  if (compressed) {
+    input <- open_input()
+    on.exit(close(input), add = TRUE)
+    x <- utils::read.csv(input, skip = skip, colClasses = "character",
+                         check.names = FALSE, stringsAsFactors = FALSE,
+                         na.strings = character(), row.names = NULL)
+  } else {
+    x <- utils::read.csv(path, skip = skip, colClasses = "character",
+                         check.names = FALSE, stringsAsFactors = FALSE,
+                         na.strings = character(), row.names = NULL,
+                         fileEncoding = "UTF-8-BOM")
+  }
   names(x)[names(x) == ""] <- ".input_row"
   af_assert(!anyDuplicated(names(x)), paste("Duplicate CSV column names:", path))
   missing <- setdiff(required, names(x))

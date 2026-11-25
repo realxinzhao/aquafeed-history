@@ -138,21 +138,19 @@ not interchangeable with `UNESTIMATED` or `OUT_OF_SCOPE`.
 All rules are in [`docs/assumptions.csv`](docs/assumptions.csv), with substantive limitations
 and source review recorded in [`docs/SOURCE_AUDIT.md`](docs/SOURCE_AUDIT.md).
 
-## Step 3: updated species-resolved production input
+## Step 3: historical species-resolved production input in v0.6.1
 
-The new user upload
-`AquacutureProductionAllYears_bySpecies_bycountry_tonnes_updated1.csv`
-is preserved **byte-for-byte** as:
+The v0.6.1 release used the user upload
+`AquacutureProductionAllYears_bySpecies_bycountry_tonnes_updated1.csv`, stored in that
+release as `data/raw/production/history_1973_2022_species.csv`. It contained **87,156
+observations, 731 species/item codes, 214 FAO reporting areas, 40 ISSCAAP groups, and
+50 years (1973–2022)**. All records were labelled `Aquaculture` and `Q_tlw`; keys were
+unique. These are historical facts about v0.6.1, not the current default input.
 
-```
-data/raw/production/history_1973_2022_species.csv
-```
-
-It contains **87,156 observations, 731 species/item codes, 214 FAO reporting areas,
-40 ISSCAAP groups, and 50 years (1973–2022)**. All records are labelled `Aquaculture`
-and `Q_tlw` (live-weight tonnes). Country × water-area × species × year keys are unique.
-The input does **not** include 2023 production; coefficient coverage through 2023 is
-retained independently. No 2023 output quantities are invented.
+The old file was removed from the current working project on November 25, 2026. The
+current default is `data/raw/production/GCAMFAOSTAT_FISHPROD_Aquaculture_BySpecies.csv.gz`,
+FAO FISHSTAT data (release 2026.1.0) processed by gcamfaostat and covering 1973–2024.
+This archived v0.6.1 document and its input checksum remain as historical references.
 
 **Default demand calculations now use actual supplied species production in each year.**
 The 2021 species-mixture approximation from v0.6 is not used. The old aggregate-history

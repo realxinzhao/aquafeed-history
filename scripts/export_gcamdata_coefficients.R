@@ -25,11 +25,11 @@
 source(file.path(.af_root, "R/load.R"), local = TRUE)
 af_load(.af_root)
 
-# Builds source evidence, the full coefficient CSV and compact GCAM CSV/gzip inputs.
-# No production input is read.
+# Builds source evidence, the full coefficient CSV, the applied crosswalk, and GCAM exports.
+# The configured FISHSTAT production input supplies the roster for automatic ISSCAAP mapping.
 sys.source(file.path(.af_root,"config/default.R"),envir=environment())
 raw <- af_stage1_sources(.af_root,file.path(config$output_dir,"01_sources"))
 coefficients <- af_stage2_coefficients(.af_root,config)
 if(isTRUE(config$run_tests)) af_checks_v06(.af_root,raw,coefficients,NULL,config)
-message("Wrote ",file.path(config$output_dir,"02_coefficients/aquaculture_feed_coefficients_species_year.csv"))
+message("Wrote ",file.path(config$output_dir,"02_coefficients/GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv"))
 for(path in coefficients$gcamdata_files) message("GCAM input: ",path)

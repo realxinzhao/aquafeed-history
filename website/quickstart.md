@@ -27,13 +27,14 @@ source("scripts/export_gcamdata_coefficients.R")
 ```
 
 The terminal equivalent is `Rscript scripts/export_gcamdata_coefficients.R`.
-This builds the source-evidence table and annual coefficients without reading the
-production panel.
+This builds source evidence, the full coefficient table and compact GCAM exports. It
+reads the configured FISHSTAT production input to extend the applied crosswalk for new
+species codes using the documented exact-ISSCAAP rule.
 
 | Location | Product |
 |---|---|
-| `outputs/gcamdata/` | `aquaculture_feed_coefficients_species_year.csv` and `.csv.gz`: compact GCAM inputs. |
-| `outputs/02_coefficients/` | Full species-year coefficient CSV, `coefficient_provenance_group_year.csv`, and `species_mapping_applied.csv`. |
+| `outputs/gcamdata/` | `GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv` and `.csv.gz`: compact GCAM inputs. |
+| `outputs/02_coefficients/` | Full `GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv`, `coefficient_provenance_group_year.csv`, and `species_mapping_applied.csv`. |
 | `outputs/01_sources/` | Literature evidence retained separately from the filled coefficients. |
 
 The two compact formats contain the same six columns:
@@ -56,7 +57,7 @@ For an ordinary R read outside gcamdata:
 
 ```r
 coeff <- read.csv(
-  "outputs/gcamdata/aquaculture_feed_coefficients_species_year.csv.gz",
+  "outputs/gcamdata/GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv.gz",
   comment.char = "#",
   colClasses = c("character", "integer", rep("numeric", 4)),
   na.strings = ""
@@ -93,11 +94,12 @@ silently replacing them with zero would lower estimated demand. See the
 source("run_all.R")
 ```
 
-This also applies coefficients to the supplied 1973–2022 species histories and
+This also applies coefficients to the supplied 1973–2024 species histories and
 generates global, country and country-technology results under
 `outputs/03_demand_checks/`. The pipeline writes `validation/R_test_results.csv`
 and records configuration, checksums and R session information in `outputs/run_info/`.
-Coefficients extend through 2023, but the supplied production panel ends in 2022.
+2024 production uses the 2023 coefficient vector held forward; there is no independent
+2024 feed benchmark in this project.
 
 ## Configuration
 

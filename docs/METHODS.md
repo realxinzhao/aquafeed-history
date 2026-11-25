@@ -3,11 +3,10 @@
 ## What the dataset represents
 
 This project estimates **commercial compound-feed ingredients per tonne of aquaculture
-output**. Its default export contains 731 FAO species/item codes for 1973–2023
-(37,281 rows). Coefficients vary by species mapping and year; there is no regional
-coefficient dimension. Most species inherit a broader feeding group's coefficients.
-Consequently, this is a harmonized, assumption-completed dataset, not 731 independently
-measured feeding histories.
+output**. Its full species-year table contains 778 codes for 1973–2024 (40,456 rows).
+Coefficients vary by species mapping and year; there is no regional coefficient dimension.
+Most species inherit a broader feeding group's coefficients. This is a harmonized,
+assumption-completed dataset, not 778 independently measured feeding histories.
 
 The calculation is implemented in [R/gcamdata.R](../R/gcamdata.R),
 [R/coefficients.R](../R/coefficients.R) and [R/coverage.R](../R/coverage.R).
@@ -51,6 +50,23 @@ are registered as complementary review evidence. They are candidates for feed-in
 comparisons and marine-ingredient revisions after checking feed boundaries and species
 aggregation. Their values are not selected in the current calculation. See the
 [IFFO review note](SOURCE_AUDIT.md#iffo-and-glencross-2024-review) for the selection rationale.
+
+## Production input and applied crosswalk
+
+The current production file is
+[`GCAMFAOSTAT_FISHPROD_Aquaculture_BySpecies.csv.gz`](../data/raw/production/GCAMFAOSTAT_FISHPROD_Aquaculture_BySpecies.csv.gz).
+It contains 92,128 observations for 1973–2024, 770 species/item codes and 220 reporting
+areas. It is FAO FISHSTAT data processed by **gcamfaostat** (archive release 2026.1.0),
+not an unprocessed FAO download. The reader handles the file's metadata preamble and gzip
+compression.
+
+The curated seed crosswalk remains the manual reference. At runtime, codes not in that
+seed are added to the applied crosswalk only when all existing entries with the exact
+ISSCAAP group agree on one `source_feed_group`. Those assignments are flagged `AUTO:` and
+low confidence. In this dataset, 24 new codes inherit a feed-group proxy, 14 inherit a
+`NONFED` convention, and 9 with conflicting ISSCAAP assignments remain `UNESTIMATED`.
+No zero is assigned merely because a code is new. The applied mapping is written to
+`outputs/02_coefficients/species_mapping_applied.csv` for audit and future refreshes.
 
 ## Coefficient construction
 
@@ -106,6 +122,9 @@ example, the Chinese-fed-carp group changes from `p = 0.20, e = 2.0` in 1995 to
 `p = 0.63, e = 1.7` in 2023: effective feed rises from 0.400 to 1.071 t/t despite
 the lower conditional eFCR. These values are traceable in the
 [group-year reference table](../tests/reference/v0.7/expected_group_year.csv).
+For 2024, each applicable numeric coefficient is held at its finalized 2023 value;
+the coefficient file marks this with `coefficient_year_hold = 2023`. This is a
+forward-hold assumption, not a 2024 literature estimate.
 
 ### Filling coverage gaps
 
@@ -124,9 +143,15 @@ example, Indian major carps use assumed `e = 2.0` and `p = 0.25` in 2021, giving
 0.5 t/t. Feeding literature supports a positive pathway but does not establish
 that global adoption rate. See [COVERAGE_ASSUMPTIONS.md](COVERAGE_ASSUMPTIONS.md).
 
+The separate automatic ISSCAAP fallback applies only to production codes absent from
+the seed crosswalk. If there is no single existing feed-group assignment for the exact
+ISSCAAP group, production remains unestimated and is reported separately; it is not
+silently dropped or assigned zero.
+
 ## Applying the output in GCAM
 
-The six-column files in `outputs/gcamdata/` contain `species_code`, `year`, and
+The six-column files in `outputs/gcamdata/` are named
+`GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv` and `.csv.gz`. They contain `species_code`, `year`, and
 `FeedCrops_per_t_output`, `fishmeal_per_t_output`, `fishoil_per_t_output`,
 `OtherFeed_per_t_output`. Both `.csv` and `.csv.gz` carry GCAM comment metadata.
 Keep the full table and provenance sidecar when distributing this compact export.
@@ -152,16 +177,22 @@ equivalents. Pricing, trade and processing conversions belong downstream.
 
 ## Validation and its interpretation
 
-The supplied production panel covers 1973–2022. Although coefficients extend through
-2023, there is no 2023 production application or verified 2023 model total. The
-following values are recorded in the
-[v0.7 reference results](../tests/reference/v0.7/expected_global_demand.csv) and
+The supplied production panel covers 1973–2024. The 2024 estimate uses held 2023
+coefficients and is not independently validated by a 2024 feed benchmark. The following
+values are recorded in the
+[updated application summary](../validation/application_summary_2021_2024.csv) and
 [benchmark input](../data/raw/benchmarks/commercial_feed_benchmarks.csv), in Mt:
 
-| Year | Original 12-group subtotal | Tacon total | Relative difference | Added assumptions | Expanded total |
-|---|---:|---:|---:|---:|---:|
-| 2021 | 63.486 | 63.600 | −0.179% | 5.498 | 68.984 |
-| 2022 | 66.510 | 66.740 | −0.345% | 5.967 | 72.476 |
+| Year | Tacon-comparable subtotal | Added coverage | Expanded total | FeedCrops | Fishmeal | Fish oil | OtherFeed |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 2021 | 63.629 | 5.384 | 69.012 | 50.878 | 4.389 | 0.992 | 12.753 |
+| 2022 | 66.768 | 5.850 | 72.619 | 53.554 | 4.640 | 1.030 | 13.395 |
+| 2023 | 69.606 | 6.534 | 76.140 | 56.073 | 4.924 | 1.066 | 14.078 |
+| 2024 | 72.252 | 6.831 | 79.083 | 58.273 | 5.121 | 1.091 | 14.598 |
+
+These are Mt of commercial-feed ingredients. Revised 2021–2023 values reflect the
+updated production series. The Tacon-comparable subtotal retains the original 12-group
+scope; automatic new-code mappings appear in added coverage.
 
 **Tacon comparison is a dependent consistency check:** the calculation uses its p/e
 framework. Small differences can reflect production vintages, group assignments and
@@ -171,10 +202,10 @@ Tacon with `tacon_comparable_feed_t`, not the expanded total.
 
 External checks use the expanded total. The fixed-vintage
 [Alltech 2023 report](https://www.alltech.com/sites/default/files/2023-02/Alltech-Agri-Food-Outlook-2023-EN-v7.pdf)
-reports 51.510/52.914 Mt for 2021/2022; model estimates are 33.9%/37.0% higher.
-China estimates are 31.064/32.746 Mt versus CFIA factory-feed production of
-22.930/25.260 Mt reproduced in USDA FAS report CH2023-0045 (linked in the benchmark
-input). These differences require reconciliation of production versus use, reporting
+reports 51.510/52.914 Mt for 2021/2022; model estimates are approximately 34.0%/37.2% higher.
+China estimates are 29.675/30.986/32.667 Mt for 2020–2022, versus CFIA factory-feed
+production of 21.240/22.930/25.260 Mt reproduced in USDA FAS report CH2023-0045
+(linked in the benchmark input). These differences require reconciliation of production versus use, reporting
 coverage and feeding assumptions; they are not dismissed or automatically calibrated
 away. Country coefficients currently inherit global species/group parameters.
 
@@ -186,6 +217,7 @@ are not an execution log. Run `Rscript run_all.R` to regenerate comparisons and 
 Finally, `complete_feed_estimate = TRUE` means numeric coverage under the selected
 commercial-feed assumptions. It does not establish empirical coverage of every
 feeding system; `complete_all_external_feed_estimate` remains false. Expanded-total
-ranges of 64.623–75.074 Mt (2021) and 67.744–79.085 Mt (2022) vary only the added
-effective coefficients, holding original coefficients and recipe proportions fixed.
+ranges of 64.766–74.652 Mt (2021), 68.004–78.744 Mt (2022), 71.005–82.925 Mt (2023),
+and 73.720–86.170 Mt (2024) vary only the added effective coefficients, holding original
+coefficients and recipe proportions fixed.
 They are sensitivity scenarios, not confidence intervals for total uncertainty.

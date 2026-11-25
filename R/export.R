@@ -34,17 +34,18 @@ af_export_gcamdata_coefficients <- function(species, out,
   dir.create(out, recursive = TRUE, showWarnings = FALSE)
   old <- options(digits = 17); on.exit(options(old), add = TRUE)
   write_one <- function(format) {
-    path <- file.path(out, paste0("aquaculture_feed_coefficients_species_year.", format))
+    path <- file.path(out, paste0("GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.", format))
     header <- c(
       paste0("File: ", basename(path)),
       "Title: Aquaculture commercial-feed ingredient inputs by species and year",
       "Units: t feed ingredient per t total aquaculture output (normally live weight)",
       paste0("Description: Effective coefficients = commercial_feed_share * efcr * ingredient_share; ",
              "share already applied. Ingredient mass as reported; no moisture or reduction-yield conversion. ",
-             "Pearl/shell product rows use documented zero commercial grow-out inputs. ",
+             "2024 uses the 2023 coefficient vector held forward; unresolved mappings are blank. ",
              "See docs/METHODS.md and outputs/02_coefficients for assumptions and provenance."),
       paste0("Data source: Tacon and Metian (2015); Tacon et al. (2026); FAO 564 (2011); ",
-             "Naylor et al. (2021); Skretting (2021); documented coverage assumptions. ",
+             "Naylor et al. (2021); Skretting (2021); documented coverage assumptions; ",
+             "species roster from FISHSTAT processed by gcamfaostat. ",
              "https://github.com/realxinzhao/aquafeed-history"),
       paste0("Date of CSV last update: ", date),
       paste0("Column types: ", paste0(af_gcamdata_column_types, collapse = "")),

@@ -31,6 +31,11 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
   share<-paste0(c("FeedCrops","fishmeal","fishoil","OtherFeed"),"_share")
   conditional<-paste0("efcr_",c("FeedCrops","fishmeal","fishoil","OtherFeed"))
   effective<-paste0(c("FeedCrops","fishmeal","fishoil","OtherFeed"),"_per_t_output")
+  production_input<-af_read_csv(af_path(root,config$production_file))
+  base_codes<-af_species_mapping_core(root)$species_code
+  input_codes<-if("species_code" %in% names(production_input)) unique(trimws(production_input$species_code)) else character()
+  new_codes<-setdiff(input_codes,base_codes)
+  auto_mapping<-co$mapping[grepl("^AUTO:",co$mapping$mapping_status), ,drop=FALSE]
   check("Species-year keys unique",!anyDuplicated(af_key(v,c("species_code","year"))))
   check("Coefficient grid expands mapping by all configured years",
         nrow(v)==nrow(co$mapping)*(config$year_end-config$year_start+1L))
@@ -40,6 +45,12 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
     ix <- match(old$species_code,co$mapping$species_code)
     !anyNA(ix) && all(old$source_feed_group==co$mapping$source_feed_group[ix])
   })
+  check("Every production code has an applied crosswalk row",all(input_codes %in% co$mapping$species_code))
+  check("New production codes have explicit automatic mapping records",
+        setequal(new_codes,auto_mapping$species_code))
+  conflicting_auto<-grepl("conflicting or absent ISSCAAP assignments",auto_mapping$mapping_status)
+  check("Conflicting ISSCAAP mappings remain unestimated",
+        all(auto_mapping$source_feed_group[conflicting_auto]=="UNESTIMATED"))
   check("No regional coefficient dimension",!any(c("region","FAO_area_code","country") %in% names(v)))
   check("p is bounded",all(is.na(g$commercial_feed_share) | (g$commercial_feed_share>=0 & g$commercial_feed_share<=1)))
   check("eFCR is nonnegative",all(is.na(g$efcr)|g$efcr>=0))
@@ -59,9 +70,14 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
   check("Silver/bighead correction explicitly mapped",all(co$mapping$source_feed_group[co$mapping$species_code %in% c("SVC","BIC")]=="NONFED"))
   if(af_coverage_policy(config)=="expanded") {
     check("Indian major carps use explicit coverage assumption",all(co$mapping$source_feed_group[co$mapping$species_code %in% c("CTT","LRH","CMG")]=="X_Indian_major_carps"))
-    check("All historical pending species are explicitly assigned",!any(co$mapping$source_feed_group %in% c("UNESTIMATED","OUT_OF_SCOPE")))
-    check("Every audited coverage override is applied",sum(co$mapping$coverage_layer %in% c("coverage_extension","coverage_assumed_zero"))==nrow(af_read_csv(file.path(root,"data/mappings/coverage_species_overrides.csv"))))
-    check("All explicit zero overrides applied",sum(co$mapping$coverage_layer=="coverage_assumed_zero")==sum(af_read_csv(file.path(root,"data/mappings/coverage_species_overrides.csv"))$source_feed_group=="NONFED"))
+    historical_mapping<-co$mapping[!grepl("^AUTO:",co$mapping$mapping_status), ,drop=FALSE]
+    check("All historical pending species are explicitly assigned",!any(historical_mapping$source_feed_group %in% c("UNESTIMATED","OUT_OF_SCOPE")))
+    overrides<-af_read_csv(file.path(root,"data/mappings/coverage_species_overrides.csv"))
+    ov_ix<-match(overrides$species_code,co$mapping$species_code)
+    check("Every audited coverage override is applied",!anyNA(ov_ix) &&
+      all(co$mapping$coverage_layer[ov_ix] %in% c("coverage_extension","coverage_assumed_zero")))
+    zero_ix<-ov_ix[overrides$source_feed_group=="NONFED"]
+    check("All explicit zero overrides applied",all(co$mapping$coverage_layer[zero_ix]=="coverage_assumed_zero"))
     check("New reported FCR evidence is not a measured global eFCR",all(is.na(raw$efcr[grepl("^CE",raw$source_record_id)])))
     check("Sensitivity bounds contain selected coefficient",all(is.na(g$commercial_feed_per_t_output) | (g$commercial_feed_per_t_output_low<=g$commercial_feed_per_t_output & g$commercial_feed_per_t_output_high>=g$commercial_feed_per_t_output)))
     check("New zero rows keep conditional eFCR undefined",all(is.na(v$efcr[v$coverage_layer=="coverage_assumed_zero"])))
@@ -78,9 +94,26 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
     if(isTRUE(config$use_recent_fishoil)) check("2021 tilapia oil total is explicit company proxy",abs(a$fishoil_share-0.002)<1e-12)
   }
   check("Projection rows not selected for total-feed history",all(af_prepare_sources(root,FALSE)$selected$period_type=="historical_estimate"))
+  if(config$year_start<=2023L && config$year_end>=2024L) {
+    hold_fields<-c(fields,"commercial_feed_per_t_output_low","commercial_feed_per_t_output_high",
+      paste0(c("FeedCrops","fishmeal","fishoil","OtherFeed"),"_per_t_output_low"),
+      paste0(c("FeedCrops","fishmeal","fishoil","OtherFeed"),"_per_t_output_high"))
+    check("2024 coefficients equal the 2023 coefficient values",{
+      previous<-v[v$year==2023L, ,drop=FALSE]; current<-v[v$year==2024L, ,drop=FALSE]
+      ix<-match(previous$species_code,current$species_code)
+      if(nrow(previous)!=nrow(current) || anyNA(ix)) FALSE else all(vapply(hold_fields,function(k) {
+        a<-af_num(previous[[k]],k,allow_missing=TRUE); b<-af_num(current[[k]][ix],k,allow_missing=TRUE)
+        identical(is.na(a),is.na(b)) && af_max_abs(a-b)<=1e-12
+      },logical(1)))
+    })
+    check("2024 coefficient hold is recorded",{
+      held<-v$year==2024L & !v$source_feed_group %in% c("NONFED","UNESTIMATED","OUT_OF_SCOPE")
+      all(v$coefficient_year_hold[held]==2023L)
+    })
+  }
   if(config$early_policy=="blank") check("Blank policy suppresses early values",all(is.na(g$efcr[g$year<1995]))) else
     check("Early backcast clearly flagged",all(g$early_backcast[g$year<1995]==1L))
-  standard<-config$year_start==1973L && config$year_end==2023L && config$early_policy=="hold" &&
+  standard<-config$year_start==1973L && config$year_end>=2023L && config$early_policy=="hold" &&
     isTRUE(config$use_recent_fishoil) && isTRUE(config$use_recent_nonmarine)
   # Do not fail legitimate user-edited assumptions against frozen default-scenario outputs.
   guard<-af_read_csv(file.path(root,"tests/reference/v0.7/scientific_input_md5.csv"))
@@ -91,6 +124,7 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
       old <- af_read_csv(file.path(root,"tests/reference/v0.6.1/species_coefficients_baseline.csv"))
       ov <- af_read_csv(file.path(root,"data/mappings/coverage_species_overrides.csv"))
       old <- old[!old$species_code %in% ov$species_code, ,drop=FALSE]
+      old <- old[as.integer(old$year)<=2023L, ,drop=FALSE]
       j <- match(af_key(old,c("species_code","year")),af_key(v,c("species_code","year")))
       af_assert(!anyNA(j),"Missing previously mapped species/year")
       for(f in fields) {
@@ -100,9 +134,10 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
       }
       TRUE
     })
-    check("Original group coefficients unchanged",compare(g[g$coverage_layer=="original_tacon_core", ],"expected_group_year.csv",c("source_feed_group","year"),fields,1e-10))
-    if(af_coverage_policy(config)=="expanded") check("Expanded annual coefficients vs independent audit",
-      compare(g,"expected_group_year.csv",c("source_feed_group","year"),c(fields,"commercial_feed_per_t_output_low","commercial_feed_per_t_output_high"),1e-10,"v0.7"))
+    prior_years<-g[g$year<=2023L, ,drop=FALSE]
+    check("Original group coefficients unchanged through 2023",compare(prior_years[prior_years$coverage_layer=="original_tacon_core", ],"expected_group_year.csv",c("source_feed_group","year"),fields,1e-10))
+    if(af_coverage_policy(config)=="expanded") check("Expanded annual coefficients vs independent audit through 2023",
+      compare(prior_years,"expected_group_year.csv",c("source_feed_group","year"),c(fields,"commercial_feed_per_t_output_low","commercial_feed_per_t_output_high"),1e-10,"v0.7"))
   } else message("Default numeric fixtures skipped: configuration or scientific inputs changed. Structural checks still run.")
   if(!is.null(demand_result)) {
     d<-demand_result$demand; a<-d$allocated
@@ -113,11 +148,19 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
     check("Original core plus extensions conserve total",af_max_abs(d$global$tacon_comparable_feed_t+d$global$coverage_extension_feed_t-d$global$commercial_feed_t)<1e-5)
     check("Product tonnes separated from live denominator",af_max_abs(d$global$production_t-d$global$live_output_t-d$global$non_live_product_output_t)<1e-5)
     if(af_coverage_policy(config)=="expanded" && config$early_policy=="hold") {
-      check("Default expanded commercial coverage is complete",all(d$global$unestimated_output_t==0 & d$global$excluded_output_t==0))
+      check("Unestimated production remains visible and is not assigned zero",{
+        unestimated_codes<-co$mapping$species_code[co$mapping$source_feed_group=="UNESTIMATED"]
+        years<-sort(unique(as.integer(production_input$year)))
+        expected<-vapply(years,function(yr) sum(as.numeric(production_input$value[
+          as.integer(production_input$year)==yr & production_input$species_code %in% unestimated_codes
+        ]),na.rm=TRUE),numeric(1))
+        ix<-match(years,d$global$year)
+        !anyNA(ix) && af_max_abs(expected-d$global$unestimated_output_t[ix])<1e-6
+      })
     }
     check("Feed components conserve feed",af_max_abs(rowSums(a[c("FeedCrops_t","fishmeal_t","fishoil_t","OtherFeed_t")])-a$commercial_feed_t)<1e-6)
     if(nrow(d$weights)) check("Historical mixture weights sum to one",all(abs(stats::aggregate(d$weights$weight,d$weights[c("FAO_area_code","water_area_code","ISSCAAP")],sum)$x-1)<1e-10))
-    input<-af_read_csv(af_path(root,config$production_file))
+    input<-production_input
     check("Production input total conserved",abs(sum(a$production_t)-sum(as.numeric(input$value)))<1e-4)
     if("species_code" %in% names(input)) {
       check("All supplied species have an explicit mapping",all(input$species_code %in% co$mapping$species_code))
@@ -127,22 +170,22 @@ af_checks_v06 <- function(root, raw, co, demand_result=NULL, config) {
     }
     z<-input[seq_len(min(3L,nrow(input))), ,drop=FALSE]
     test<-z;test$supply[1]<-"Capture"
-    check("Capture input rejected",rejects(af_clean_production(test,1973:2023)))
+    check("Capture input rejected",rejects(af_clean_production(test,1973:2024)))
     test<-z;test$measure[1]<-"Q_kg"
-    check("Wrong units rejected",rejects(af_clean_production(test,1973:2023)))
+    check("Wrong units rejected",rejects(af_clean_production(test,1973:2024)))
     test<-z;test$value[1]<-"-1"
-    check("Negative production rejected",rejects(af_clean_production(test,1973:2023)))
+    check("Negative production rejected",rejects(af_clean_production(test,1973:2024)))
     test<-rbind(z,z[1, ,drop=FALSE])
-    check("Duplicate production rejected",rejects(af_clean_production(test,1973:2023)))
+    check("Duplicate production rejected",rejects(af_clean_production(test,1973:2024)))
     if("species_code" %in% names(z)) {
       test<-z;test$species_code[1]<-""
-      check("Empty species code rejected",rejects(af_clean_production(test,1973:2023)))
+      check("Empty species code rejected",rejects(af_clean_production(test,1973:2024)))
       test<-z;test$species_code[1]<-"__UNMAPPED_TEST__"
       ctest<-config;ctest$root<-root
-      check("Unmapped species code rejected",rejects(af_apply_history(test,NULL,co,ctest)))
+      check("Species absent from the applied crosswalk is rejected",rejects(af_apply_history(test,NULL,co,ctest)))
     }
-    test<-z;test$year[1]<-"2024"
-    check("Unsupported year rejected",rejects(af_clean_production(test,1973:2023)))
+    test<-z;test$year[1]<-"2025"
+    check("Unsupported year rejected",rejects(af_clean_production(test,1973:2024)))
     expected_input_md5 <- af_read_csv(file.path(root,"tests/reference/v0.6.1/input_md5.csv"))$md5[1]
     is_reference_input <- identical(unname(tools::md5sum(af_path(root,config$production_file))),expected_input_md5)
     if(standard && is_reference_input && default_science) {

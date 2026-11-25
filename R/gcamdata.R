@@ -115,17 +115,20 @@ af_interp_value <- function(years, values, target) {
 af_stage2_coefficients <- function(root = ".", config) {
   baseline <- af_build_coefficients(root = root, write = FALSE)$annual
   src <- af_prepare_sources(root, write = FALSE)
-  af_assert(config$year_start >= 1900 && config$year_end <= 2023 &&
+  af_assert(config$year_start >= 1900 && config$year_end <= 2024 &&
               config$year_start <= config$year_end, "Unsupported coefficient interval")
   af_assert(config$early_policy %in% c("hold", "blank"), "early_policy must be hold or blank")
+  input <- af_read_csv(af_path(root, config$production_file))
   years <- seq.int(config$year_start, config$year_end)
+  mapping_input <- input[af_year(input$year) %in% years, , drop = FALSE]
   groups <- src$mapping$source_feed_group
   index <- expand.grid(source_feed_group = groups, year = years, stringsAsFactors = FALSE)
-  use_year <- pmax(index$year, 1975L)
+  use_year <- pmin(pmax(index$year, 1975L), 2023L)
   key <- paste(index$source_feed_group, use_year, sep = "\034")
   b <- baseline[match(key, af_key(baseline, c("source_feed_group", "year"))), , drop = FALSE]
   af_assert(!anyNA(b$year), "Coefficient join failed")
   b$year <- index$year
+  b$coefficient_year_hold <- ifelse(b$year == 2024L, 2023L, NA_integer_)
   b$early_backcast <- as.integer(b$year < 1995)
   b$fishoil_share <- b$fishoil_proxy_share
   b$fishoil_scope <- ifelse(b$year <= 2008, "total_as_reported",
@@ -204,11 +207,12 @@ af_stage2_coefficients <- function(root = ".", config) {
     "feed_fill_method","fishmeal_fill_method","fishoil_fill_method","nonmarine_fill_method",
     "feed_source_ids","fishmeal_source_ids","fishoil_source_ids","nonmarine_source_ids",
     "feed_year_low","feed_year_high","marine_year_low","marine_year_high",
-    "fishoil_year_low","fishoil_year_high","early_backcast","fishoil_scope","feed_mass_basis","assumption_ids")
+    "fishoil_year_low","fishoil_year_high","early_backcast","coefficient_year_hold",
+    "fishoil_scope","feed_mass_basis","assumption_ids")
   g <- b[,pcols,drop=FALSE]; g <- g[order(g$source_feed_group,g$year), ]
   rownames(g) <- NULL
   g <- af_extend_coverage_groups(root,g,baseline,config)
-  cross <- af_species_mapping(root,config)
+  cross <- af_species_mapping(root,config,mapping_input)
   ix <- rep(seq_len(nrow(cross)), each=length(years)); x <- cross[ix, ]
   x$year <- rep(years, times=nrow(cross))
   match_id <- match(af_key(x,c("source_feed_group","year")),af_key(g,c("source_feed_group","year")))
@@ -245,7 +249,8 @@ af_stage2_coefficients <- function(root = ".", config) {
   main_cols <- c("species_code","species_name","ISSCAAP","year",value_cols,
     "source_feed_group","coefficient_id","mapping_status","coefficient_status",
     "feed_fill_method","fishmeal_fill_method","fishoil_fill_method","nonmarine_fill_method",
-    "early_backcast","fishoil_scope","coverage_layer","coverage_assumption_id","coverage_confidence",
+    "early_backcast","coefficient_year_hold","fishoil_scope","coverage_layer",
+    "coverage_assumption_id","coverage_confidence",
     "original_source_feed_group","output_basis","species_name_original","identity_source_id","identity_note",
     "commercial_feed_per_t_output_low","commercial_feed_per_t_output_high",
     paste0(c("FeedCrops","fishmeal","fishoil","OtherFeed"),"_per_t_output_low"),
@@ -255,7 +260,8 @@ af_stage2_coefficients <- function(root = ".", config) {
   result <- result[order(result$species_code,result$year), ]; rownames(result)<-NULL
   af_unique(result,c("species_code","year"),"species-year coefficient")
   output <- file.path(root,config$output_dir,"02_coefficients")
-  af_write_csv(result,file.path(output,"aquaculture_feed_coefficients_species_year.csv"))
+  af_write_csv(result,file.path(output,"GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv"))
+  unlink(file.path(output,"aquaculture_feed_coefficients_species_year.csv"))
   af_write_csv(g,file.path(output,"coefficient_provenance_group_year.csv"))
   af_write_csv(cross,file.path(output,"species_mapping_applied.csv"))
   formats <- if(is.null(config$gcamdata_formats)) c("csv", "csv.gz") else config$gcamdata_formats

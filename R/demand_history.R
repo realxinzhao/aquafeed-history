@@ -16,6 +16,7 @@ af_clean_production <- function(d, years) {
   af_assert(all(d$value>=0),"Negative production")
   af_assert(all(d$year %in% years),"Production year outside coefficient coverage")
   for (k in c("FAO_area_code","water_area_code")) d[[k]] <- as.character(af_num(d[[k]],k))
+  if ("species_code" %in% names(d)) d$species_code <- trimws(d$species_code)
   keys <- c("FAO_area_code","water_area_code",if ("species_code" %in% names(d)) "species_code" else "ISSCAAP","year")
   for (k in keys) af_assert(all(!is.na(d[[k]]) & nzchar(trimws(as.character(d[[k]]))) &
     !(as.character(d[[k]]) %in% c("NA", "NaN"))), paste("Missing production key:", k))
@@ -189,7 +190,10 @@ af_stage3_check_demand <- function(root,co,config) {
   for(f in c("historical_species_mix_assumptions.csv",
       "global_feed_demand_global_mix_sensitivity.csv","country_feed_demand_global_mix_sensitivity.csv",
       "species_2021_direct_check.csv","allocated_production_and_feed.csv",
-      "unestimated_production_by_species_year.csv","coverage_mapping_audit_2021_2022.csv")) unlink(file.path(output,f))
+      "unestimated_production_by_species_year.csv")) unlink(file.path(output,f))
+  old_coverage_audits <- list.files(output, pattern="^coverage_mapping_audit_[0-9]+_[0-9]+[.]csv$",
+                                    full.names=TRUE)
+  if(length(old_coverage_audits)) unlink(old_coverage_audits)
   d<-af_apply_history(input,ref,co,config,"country_2021")
   af_write_csv(d$global,file.path(output,"global_feed_demand.csv"))
   af_write_csv(d$country,file.path(output,"country_feed_demand.csv"))
@@ -205,8 +209,12 @@ af_stage3_check_demand <- function(root,co,config) {
       file.path(output,"unestimated_production_by_species_year.csv"))
   }
   if(direct_input) {
-    if(af_coverage_policy(config)=="expanded") af_write_csv(af_coverage_mapping_audit(root,co,d$allocated),
-      file.path(output,"coverage_mapping_audit_2021_2022.csv"))
+    audit_years <- intersect(seq.int(2021L,config$year_end),sort(unique(d$allocated$year)))
+    if(af_coverage_policy(config)=="expanded" && length(audit_years)) {
+      audit_name <- paste0("coverage_mapping_audit_",min(audit_years),"_",max(audit_years),".csv")
+      af_write_csv(af_coverage_mapping_audit(root,co,d$allocated,audit_years),
+        file.path(output,audit_name))
+    }
     extrows <- d$allocated[d$allocated$coverage_layer %in% c("coverage_extension","coverage_assumed_zero"), ]
     af_write_csv(af_aggregate_demand(extrows,c("source_feed_group","coverage_assumption_id","year")),
       file.path(output,"coverage_extension_by_group_year.csv"))
@@ -231,12 +239,13 @@ af_stage3_check_demand <- function(root,co,config) {
   }
   audit<-data.frame(item=c("input_rows","first_year","last_year","number_years","reporting_areas",
     "ISSCAAP_groups","contains_species_code","species_codes","calculation_basis",
-    "production_2021_t","production_2022_t"),
+    "production_2021_t","production_2022_t","production_2023_t","production_2024_t"),
     value=c(nrow(input),min(as.integer(input$year)),max(as.integer(input$year)),length(unique(input$year)),
       length(unique(input$FAO_area_code)),length(unique(input$ISSCAAP)),direct_input,
       if(direct_input) length(unique(input$species_code)) else NA,
       if(direct_input) "observed_species_production; no_2021_species_mixture" else "2021_species_mixture_assumption",
-      sum(as.numeric(input$value[input$year=="2021"])),sum(as.numeric(input$value[input$year=="2022"]))),stringsAsFactors=FALSE)
+      sum(as.numeric(input$value[input$year=="2021"])),sum(as.numeric(input$value[input$year=="2022"])),
+      sum(as.numeric(input$value[input$year=="2023"])),sum(as.numeric(input$value[input$year=="2024"]))),stringsAsFactors=FALSE)
   af_write_csv(audit,file.path(output,"production_input_audit.csv"))
   list(demand=d,comparison=comparison)
 }

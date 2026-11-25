@@ -7,7 +7,7 @@ data/raw/literature/coverage_evidence.csv,255d995013185110f28b15895f427d8b
 data/raw/literature/FAO626_regional_FCR_review_only.csv,e9dbd4ab4d7d6e6f48153dde1ca3f753
 data/raw/literature/Skretting2021_Table15.csv,cd35b6f73aca82f723bbf79ee2990feb
 data/raw/literature/Tacon2015_Figure5_profiles.csv,3f6e059c3d4cf762f86748376222a51a
-data/raw/literature/source_register.csv,3a6cc9003ef1cc4fa21a17db4a778636
+data/raw/literature/source_register.csv,31ec4966fd911089020784620cbb5dba
 data/raw/literature/FAO564_historical_anchors.csv,01cc5a7bae081da8980e6476f8a6147d
 data/raw/literature/Tacon2015_Table1_all_years.csv,c153c94cc09f77ed3dd8fcd8525d2cae
 data/raw/literature/source_value_checks.csv,ffc1cda8547c7f8148235e52816210cd
@@ -16,3 +16,4 @@ data/raw/literature/FAO578_Indian_carp_FCR_evidence.csv,d9fb1cb108e6014aed49b4b4
 data/raw/literature/Tacon2026_Table3_all_years.csv,52210d95b4252a04971dc193369d0a7d
 data/raw/literature/Naylor2021_Table1_feed_metadata_2017.csv,f61d11d483a6176e2158350b91fae105
 data/raw/literature/Naylor2021_Table1_2017.csv,ac27c8b13289bf1d8249a32bf9deabba
+data/raw/production/GCAMFAOSTAT_FISHPROD_Aquaculture_BySpecies.csv.gz,8b4725a9cda03d02a93802e4c7149280

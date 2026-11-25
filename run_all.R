@@ -42,7 +42,7 @@ if(isTRUE(cli_options$help)) {
   if(isTRUE(cli_options[["skip-tests"]])) config$run_tests<-FALSE
   message("Step 1: preserve source values and within-source products")
   raw <- af_stage1_sources(.af_root,file.path(config$output_dir,"01_sources"))
-  message("Step 2: build documented annual coefficients and species CSV")
+  message("Step 2: build documented coefficients and extend the applied species crosswalk")
   coefficients <- af_stage2_coefficients(.af_root,config)
   demand <- NULL
   if(isTRUE(config$run_demand_checks)) {
@@ -58,6 +58,6 @@ if(isTRUE(cli_options$help)) {
       ran_demand_checks=config$run_demand_checks),
     extra_files=c(file.path(.af_root,"config/default.R"),file.path(.af_root,"data/raw/benchmarks/commercial_feed_benchmarks.csv"),
                   if(isTRUE(config$run_demand_checks)) af_path(.af_root,config$species_reference_file) else character()))
-  message("Main output: ",file.path(config$output_dir,"02_coefficients/aquaculture_feed_coefficients_species_year.csv"))
+  message("Main output: ",file.path(config$output_dir,"02_coefficients/GCAMFAOSTAT_FeedCoef_Aquaculture_BySpecies.csv"))
   for(path in coefficients$gcamdata_files) message("GCAM input: ",path)
 }

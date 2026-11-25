@@ -2,7 +2,8 @@ column,units,definition
 species_code,code,"FAO species/item key; can represent species, genus or nei category"
 species_name,text,Resolved display name where available; not a join key
 ISSCAAP,text,User ISSCAAP group; used for aggregation mapping
-year,year,1973-2023; not proof of an observation in that year
+year,year,1973-2024; 2024 coefficients hold the finalized 2023 coefficient vector
+coefficient_year_hold,year,Source coefficient year held forward; 2023 for 2024 positive group coefficients, otherwise blank
 efcr,t/t,Total commercial feed per tonne commercially fed live output
 commercial_feed_share,fraction,Share of total species/group production using commercial feed; not ingredient share
 commercial_feed_per_t_output,t/t,"p * efcr, per tonne TOTAL live output"
@@ -28,8 +29,8 @@ fishoil_fill_method,text,Oil interpolation/proxy/hold method
 nonmarine_fill_method,text,Constructed nonmarine allocation method
 early_backcast,0/1,1 for held pre1995 coefficients; NA for categories without group-year estimates
 fishoil_scope,text,Total-as-reported versus company transfer or incomplete wild-only proxy
-coverage_layer,text,"Original Tacon core, original nonfed, new positive coverage extension, or new assumed zero"
-coverage_assumption_id,key,Join to coverage_assumption_groups.csv or zero convention in assumptions.csv
+coverage_layer,text,"Original Tacon core, original nonfed, coverage extension, assumed zero, or unresolved new species"
+coverage_assumption_id,key,Join to coverage_assumption_groups.csv or identify an automatic ISSCAAP-based assumption
 coverage_confidence,text,Evidence/assumption quality flag; populated does not imply observed
 original_source_feed_group,text,Preserved pre-extension mapping
 output_basis,text,Reported live weight or pearl/shell product; product denominator separated
@@ -52,10 +53,10 @@ coverage_extension_feed_t,t,Additional positive commercial-feed demand from new 
 commercial_feed_low_t,t,Low-intensity case for additions; original feed fixed
 commercial_feed_high_t,t,High-intensity case for additions; original feed fixed
 assumption_covered_output_t,t,"Production receiving a new assumed coefficient, including newly assumed zero"
-assumed_zero_output_t,t,Production receiving one of the six newly assumed-zero commercial-grow-out conventions
+assumed_zero_output_t,t,Production assigned an explicit or automatic NONFED assumption
 non_live_product_output_t,t,Pearl/shell product tonnes reported in input
 live_output_t,t,Production less separately flagged pearl/shell products
-complete_feed_estimate,boolean,Every supplied positive-production record has a numeric commercial coefficient under chosen policy; not comprehensive feed or evidence quality
+complete_feed_estimate,boolean,Every supplied positive-production record has a numeric commercial coefficient under chosen policy; unresolved new species make this false
 reported_fcr,source-specific,Raw literature FCR in its own system/stage/basis; not necessarily commercial eFCR
 reported_fcr_basis,text,Feed type/life-stage/context of raw source FCR
 evidence_supports,text,Claim that source actually supports
